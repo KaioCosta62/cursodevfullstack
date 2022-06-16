@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.profile{
+  margin-top: 30px;
+}
+
+.profile .photo{
+  width: 140px;
+  border-radius: 50%;
+  border: 4px solid #2e002b;
+  margin: 0 auto 35px auto;
+}
+
+.profile .name{
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-family: 'Sora', sans-serif;
+}
+
+.profile .function{
+  color: #cecece;
+}
+.list-links{
+  margin-top: 50px;
+}
+
+.list-links img{
+  width: 60px;
+  display: block;
+}
+
+.list-links li{
+  margin-bottom: 40px;
+}
+
+.list-links li .card{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.list-links li .card:hover{
+  background-color: #fff;
+  border-radius: 15px;
+  color: #000;
+}
+
+.list-links li .card h3{
+  margin-left: 15px;
+}
