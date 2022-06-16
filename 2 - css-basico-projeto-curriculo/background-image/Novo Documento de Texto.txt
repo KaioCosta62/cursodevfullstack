@@ -1,0 +1,17 @@
+a propriedade background-image adiciona imagens de fundo no nosso site
+
+Por padrão uma imagem utiliza do repeat, para se enquadrar 100% no tamanho do elemento, podemos anular isso com a propriedade background-repeat com o valor no-repeat
+
+background-position: Definimos a posição do background, essa propriedade pode receber até 2 valores.
+
+O 1 valor é a distância do lado esquerdo e o 2 valor é a distância do topo
+
+Essa propriedade pode receber valores de %, px, top, bottom, center,left,right
+
+background-size: Vai definir o tamanho do background, tem basicamente 2 valores muito utilizados:
+
+cover - Vai cobrir toda a área disponível
+contain - Vai cobrir somente o tamanho do background em si
+
+
+background-attachment - Conseguimos posicionar o background sem se mover com o valor fixed

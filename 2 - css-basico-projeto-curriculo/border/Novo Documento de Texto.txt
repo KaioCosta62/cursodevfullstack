@@ -1,0 +1,10 @@
+A propriedade borda carrega com si 3 valores.
+
+1 - Quantos px de espessura de borda (Border-width)
+2 - Qual o tipo da borda (border-style)
+3 - Qual a cor da borda(aceitando valores por extenso, hexadecimal e rgb/rgba) (border-color)
+
+Podemos abreviar essas 3 propriedades em uma só: border: border-width border-style border-color, seguindo exatamente essa ordem, esse tipo de código é chamado de shorthand
+
+
+A propriedade border-radius permite deixar a borda arredondada, ele permite alterar cada uma das bordas, suportando 4 valores. top right bottom e left

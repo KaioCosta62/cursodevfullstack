@@ -1,0 +1,1 @@
+É comum em projetos colocar uma fonte no body e quando tivermos outros elementos com fontes diferentes, nos alteramos no próprio elemento

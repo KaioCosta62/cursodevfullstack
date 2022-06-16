@@ -1,0 +1,7 @@
+Div é usada para criar divisões no nosso html, com ela conseguimos criar várias coisas juntando com o CSS.
+
+A div naturalmente, tem 0px de largura e 0px de altura
+
+Para centralizar uma div na tela, podemos fazer de várias formas, uma delas é usando o margin 0 auto
+
+Usamos muito uma div com nome container para limitar nosso conteúdo ao centro da página

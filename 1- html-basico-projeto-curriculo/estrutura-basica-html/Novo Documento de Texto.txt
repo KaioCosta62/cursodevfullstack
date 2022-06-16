@@ -1,0 +1,17 @@
+O documento html é composto por tags pai e filha
+
+<!doctype html> - Se remete a versão do html
+
+<html> Essa tag vai receber o conteúdo html
+
+<header> - Essa tag vai receber as configurações do documento html
+
+<title></title> - O conteúdo colocado nessa tag, será o título da página
+
+</header>
+
+<body> - Essa tag vai receber todo o conteúdo visível na página
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+Temos 3 formas de adicionar cores em css
+1 - Nome da cor (red,green,blue)
+
+2 - Através do código hexadecimal (#1f1f1f) - Um código hexadecimal é composto por 6 caracteres, porem se for 6 caracteres iguais, podemos colocar só 3, ex: #000(preto) #fff(branco), os 2 primeiros valores remete a coloração vermelha, os 2 seguintes a coloração verde e os 2 últimos a coloração azul
+
+Os valores de hexadecimal vai de 1-9 a-f
+
+3 - Através do código rgb (red,green e blue) rgb(120,120,125)
+
+Com o rgb, conseguimos adicionar um novo valor, que é o aplha (a), que irá adicionar transparência a cor. Vai de valores de 0 a 1, quanto menor o valor, maior a transparencia
+
+Os valores rgb vai de 0 até 255
+
+rgba(255,0,1,0.5)

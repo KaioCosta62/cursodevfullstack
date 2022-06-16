@@ -1,0 +1,17 @@
+.verde{
+  color: green;
+}
+
+.foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#paragrafo-descricao{
+  color: red;
+}
+
+h1{
+  font-size: 25px;
+}

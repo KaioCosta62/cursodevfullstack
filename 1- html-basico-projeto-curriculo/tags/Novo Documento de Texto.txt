@@ -1,0 +1,5 @@
+As tags são compostas por abertura e fechamento e um conteúdo central entre essa aberta e fechamento.
+
+Existem também tags de auto fechamento, como por exemplo a tag img.
+
+Tags podem ter atributos, que são como 'poderes', onde atribuimos algumas informações, como por exemplo o atributo src que pertence a tag img, onde colocamos o caminho até a imagem que queremos mostrar e sua extensao. <img src = 'imagens/image.jpg'/>, por exemplo.

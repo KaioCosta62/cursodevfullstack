@@ -1,0 +1,8 @@
+Temos algumas tags que deixam nosso conteúdo em negrito e em itálico.
+
+As tags strong e b, deixam o conteúdo em negrito, a diferença entre ambas é no valor semântico da tag.
+Enquanto a tag b tem apenas um efeito visual, a tag strong remete a algo extremamente importante no nosso conteúdo.
+
+
+As tags i e em, deixam o conteúdo em itálico, a diferença entre ambas é no valor semântico da tag.
+Enquanto a tag i tem apenas um efeito visual, a tag em remete a dar ênfase a alguma coisa do nosso conteúdo

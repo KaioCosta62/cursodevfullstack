@@ -1,0 +1,11 @@
+Se dentro do href dos links, colocarmos mailto: ao clicar no link, irá abrir o software de email instalado na máquina, podemos colocar o assunto já também preenchido, basta colocar no final do href ?subjecet= assunto
+
+exemplo:
+
+<a href = "mailto:kaio_costa222@hotmail.com?subject=assunto do email"> Entre em contato</a>
+
+Usamos também a tag a para navegar para outras páginas que seu site possa ter, basta por o endereço da página dentro do href
+
+A tag br salta linhas
+
+O index.html é o ponto de partida de um site

@@ -1,0 +1,3 @@
+Uma div vai ocupar 100% do pai dela
+
+Quando especificamos largura mas não especificamos altura, o navegador vai renderizar a imagem de forma proporcional. Não definir altura é basicamente colocar na regra de css: height com valor auto

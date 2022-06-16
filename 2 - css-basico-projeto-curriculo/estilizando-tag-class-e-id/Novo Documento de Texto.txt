@@ -1,0 +1,9 @@
+Uma das formas mais usadas para estilizar, é através de classes. As classes podem ser reaplicadas em outros elementos html.
+
+Para criar uma classe, vamos até o elemento html e dentro da tag, adicionamos a palavra class = "nome da classe"
+
+Além de que, podemos utilizar várias classes para um mesmo elemento
+
+O atributo ID, não é muito utilizado, pois se remete a algo mt individual, não pode ser reaplicado em outros elementos
+
+A outra forma de estilizar, é pegando o elemento html mesmo. Como: img, h1, h2, p, etc.

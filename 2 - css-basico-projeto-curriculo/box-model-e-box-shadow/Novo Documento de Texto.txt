@@ -1,0 +1,10 @@
+Box-model é a maneira como uma caixa se comporta no CSS
+
+Box-shadow é usado pra adicionar sombras
+
+Ele recebe 4 valores:
+
+1- Distância da sombra na horizontal
+2 - Distância da sombra na vertical
+3 - Desfoque da sombra
+4 - Cor da sombra

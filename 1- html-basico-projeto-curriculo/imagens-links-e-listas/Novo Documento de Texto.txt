@@ -1,0 +1,11 @@
+A tag de link é a tag a, quer dizer âncora.
+
+O atributo href, é a referência de hiperlink, onde colocamos algum endereço
+
+O atributo target com o valor _blank, abre o link em nova aba do navegador
+
+Adicionamos imagens através da tag img
+
+Temos 2 tags de lista, ul e ol. A primeira são listas desordenadas, ou seja, a ordem dos itens não é importante. A segunda são listas ordenadas, onde a ordem importa.
+
+li são cada item dessa lista, sendo usadas tanto na ul quanto na ol

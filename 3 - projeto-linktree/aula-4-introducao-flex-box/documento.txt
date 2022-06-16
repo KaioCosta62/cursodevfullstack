@@ -1,0 +1,9 @@
+Nesse exemplo, a nossa UL se tornará flex e todos os filhos de UL ficaram lado a lado
+
+O conceito de flex inicialmente é que todos os filhos do elemento pai com display flex, fiquem lado a lado
+
+Justify-content: center -> Essa propriedade basicamente ira justificar o nosso conteúdo, ao centro da tela
+
+Space-between adiciona um espaçamento entre os itens
+
+space-around adiciona um espapaçamento ao redor dos itens

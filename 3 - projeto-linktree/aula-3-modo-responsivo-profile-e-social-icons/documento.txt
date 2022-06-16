@@ -1,0 +1,5 @@
+O devtools permite que a gente visualize nosso site em outras dimensões de tela
+
+Com o seletor * conseguimos aplicar estilos gerais para todo nosso css, entao podemos resetar nossas margins e paddings de todos os elementos
+
+Dentro de uma LI podemos ter qualquer tipo de elemento html

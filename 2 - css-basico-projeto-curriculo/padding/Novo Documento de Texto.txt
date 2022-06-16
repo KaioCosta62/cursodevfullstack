@@ -1,0 +1,3 @@
+Padding é muito similar ao margin, porem o padding faz espaçamentos internos.
+
+Assim como no margin, possui padding top, right,bottom e left, possui sua propriedade shorthand

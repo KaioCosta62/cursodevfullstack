@@ -1,0 +1,7 @@
+Existem 3 formas de utilizar o css: externo, interno e inline, as 2 últimas quase não são mais utilizadas no mercado de trabalho
+
+Css interno: você abre e fecha a tag style, no head do site e estiliza a partir dali, não é mt utilizada porque não iriamos conseguir usar esses estilos em outras páginas, teriamos que ficar copiando e colando.
+
+Css inline: Utilizamos diretamente na tag html
+
+Css externo: criamos um arquivo .css no nosso projeto, linkamos ele no nosso html e estilizamos de forma separada.

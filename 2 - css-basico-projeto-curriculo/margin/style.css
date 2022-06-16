@@ -1,0 +1,26 @@
+body{
+  background-color: #dfdfdf;
+}
+.foto-principal{
+  /*
+  border-width: 5px;
+  border-style: dotted;
+  border-color: red;
+  */
+  border: 2px solid #fff;  /*Isso é um código que chamamos de shorthand, onde abreviamos*/ 
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  /*
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 15px
+  */
+
+  margin: 30px 15px 100px 100px;
+}
+
+h1{
+  border-style: dotted solid;
+}

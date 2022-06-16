@@ -1,0 +1,1 @@
+O DevTools é muito importante pois permite que a gente investigue nosso documento html, fazendo alterações em tempo real e achar problemas que nosso código possa estar apresentando

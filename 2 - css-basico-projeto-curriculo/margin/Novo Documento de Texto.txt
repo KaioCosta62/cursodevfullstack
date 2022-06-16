@@ -1,0 +1,11 @@
+Margin distancia os elementos externamente
+
+Possui os valores: margin-top, margin-right, margin-bottom e margin-left e também possui o valor shorthand com margin: aqui podemos colocar 4 valores, 2valores, 3 valores e 1 valor
+
+margin: 10px 0 20px 0 -> 10px pro topo, 0 pra direita, 20px para baixo e 0 para esquerda
+
+margin: 10px 20px -> 10px para o topo e para baixo e 20px para esquerda e para a direita
+
+margin: 10px 5px 3px -> 10px para o topo 5px direita e esquerda 3px para baixo
+
+margin: 30px -> 30px para todos os eixos

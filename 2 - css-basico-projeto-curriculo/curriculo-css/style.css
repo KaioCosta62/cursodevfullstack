@@ -1,0 +1,70 @@
+body{
+  background-color: #dfdfdf;
+  font-family:'Raleway', sans-serif;
+  color: rgb(34,34,34);
+  margin: 0;
+}
+
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.profile{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.foto-principal{
+  border: 2px solid #fff;  /*Isso é um código que chamamos de shorthand, onde abreviamos*/ 
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  margin: 30px 30px 0 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 15px #913838;;
+}
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: -1;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 40px;
+}
+
+h2{
+  margin-top: 0;
+  letter-spacing: -1;
+  color: rgb(73, 73, 73);
+  font-weight: 100;
+}
+
+p{
+  line-height: 25px;
+}
+
+.social-link{
+  text-decoration: none;
+}
+
+.social-icons{
+  width: 30px;
+}
+
+.linkedin{
+  margin-right: 20px;
+}
+
+ul, ol{
+  padding-left: 20px;
+}
+
+.footer{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 25px;
+}

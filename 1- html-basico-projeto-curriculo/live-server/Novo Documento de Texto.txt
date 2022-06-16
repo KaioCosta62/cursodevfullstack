@@ -1,0 +1,1 @@
+Live server é uma extensão que usamos pra gerar um servidor na nossa máquina, não sendo necessário atualizar a página contantemente pra ver as alterações do documento
