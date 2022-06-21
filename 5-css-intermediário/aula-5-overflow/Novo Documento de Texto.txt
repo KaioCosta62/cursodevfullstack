@@ -1,0 +1,9 @@
+Overflow significa tudo que transborda pra fora de alguma coisa
+
+A propriedade overflow possui os valores: auto,hidden e scroll
+
+O valor hidden, irá esconder o conteudo que transbordou
+
+O valor scroll, irá exibir uma barra de rolagem, para que o usuário veja o restante do conteúdo, quando utilizamos o scroll, irá ser exibido uma barra de rolagem na horizontal e na vertical, podemos ocultar alguma dessas barras de rolagem, com a propriedade overflow-x e overflow-y com o valor hidden
+
+O valor auto, a propriedade irá avaliar a necessidade de scroll e irá adicionar a barra de rolagem somente na direção necessária(horizontal,vertical ou se precisar, em ambas as direções).

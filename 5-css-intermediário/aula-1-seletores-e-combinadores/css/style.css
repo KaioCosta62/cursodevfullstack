@@ -1,0 +1,53 @@
+
+/*p{
+  color: red;
+}*/
+
+/*
+.exemplo1 p{
+  color: red;
+}*/
+
+.exemplo{
+  border: 1px solid;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.exemplo1 p.red{
+  color: red;
+}
+
+.margin{
+  margin: 50px 0;
+}
+
+/*
+h1{
+  color: blue;
+}
+
+h2{
+  color: blue;
+}
+
+h3{
+  color: blue;
+}
+*/
+
+h1,h2,h3{
+  color: blue;
+}
+
+.exemplo2 > p{
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+.exemplo3 + p{
+  background-color: #ccc;
+}
+
+.exemplo4 ~ p{
+  color: yellowgreen;
+}

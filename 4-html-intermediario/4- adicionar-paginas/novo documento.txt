@@ -1,0 +1,3 @@
+A pagina index se remete a home-page do site
+
+Para adicionar novas páginas, basta criar outros arquivos .html como mesmo nome que colocamos no href da tag a

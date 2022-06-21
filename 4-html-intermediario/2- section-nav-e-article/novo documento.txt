@@ -1,0 +1,7 @@
+A tag nav é responsável pela área de navegação principal do site
+
+A tag article é responsável pelos artigos, normalmente blogs usam essa tag para mencionar os conteúdos existentes no site
+
+A tag section corresponde a uma seção do site
+
+Quando precisamos colocar 2 elementos lado a lado, temos que ter um elemento pai com o display flex, onde por padrão, seus elementos filhos irão ficar lado a lado pelo comportamento padrão do flexbox

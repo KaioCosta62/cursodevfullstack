@@ -1,0 +1,11 @@
+Não construimos layouts com position's, apenas fazemos alterações específicas em posicionamento de alguns elementos. Temos os seguintes tipos de position: static(padrão), absolute, relative e fixed. 
+
+Quando alteramos o position de um elemento, podemos manipular as propriedades de top, right,bottom e left.
+
+O position fixed garante que o elemento fique fixo na tela, ou seja, ao rolar a barra de scroll, o elemento com position fixed continuará aparecendo, isso é mt usado em menus, icones de contato, por exemplo
+
+O position absolute faz com que o elemento fique parado em um determinado local, um elemento com position absolute, por padrão irá ficar relativo ao body. O elemento com position absolute vai ser absoluto ao 1 elemento pai que ele encontrar(no caso o body), por isso, é normal quando um elemento tenha o posicionamento absoluto, nos irmos ao elemento pai dele e colocar como position relative, com isso ele vai deixar de ser absoluto ao body e irá ser absoluto ao seu verdadeiro elemento pai
+
+O position relative define como um elemento pode ser posicionado na tela, como o nome diz, de forma relativa.
+
+Os positions fazem os elementos fluturarem em cima dos outros elementos, exceto no caso do position relative

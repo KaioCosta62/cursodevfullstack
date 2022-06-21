@@ -1,0 +1,15 @@
+Pseudo elementos tem um comportamento semelhante a pseudo classes
+
+sintaxe: elemento::pseudo-elemento{}
+
+Pseudo-elementos ajudam a alterar uma parte específica do meu elemento
+
+::first-line - Aplica um estilo na primeira linha de algum conteúdo, como parágrafos.
+
+::first-letter - Aplica um estilo na primeira letra do meu conteúdo
+
+::before - Consigo adicionar um conteúdo antes do meu elemento, a propriedade content é obrigatória, mesmo que não vá ter conteúdo dentro dessa propriedade
+
+::after - Consigo adicionar um conteúdo depois do meu elemento, a propriedade content é obrigatória, mesmo que não vá ter conteúdo dentro dessa propriedade
+
+::selection - Permite alterar a cor do texto e do fundo quando selecionamos, essa propriedade só pode ser aplicada no documento inteiro, não aplicamos em uma tag específica

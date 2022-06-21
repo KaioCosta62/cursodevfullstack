@@ -1,0 +1,24 @@
+Seletores mais simples: classe/id ou a tag do elemento html
+
+div p - Ira selecionar todos os parágrafos que são filhos de uma div
+
+.paragrafo - Ira selecionar todos os elementos com a classe parágrafo
+
+div p.red - Irá aplicar a estilização a um paragrafo que tenha a classe red que  venha de uma div
+
+Um elemento pode ter mais de uma classe
+
+h1,h2,h3 {} - Esses 3 elementos irá receber o mesmo estilo, podemos passar classe ou elementos entre as virgulas.
+
+
+Exemplo de combinadores
+
+h1,h2,h3 - Irá aplicar o estilo a todos esses elementos 
+
+div p.red - Irá aplicar o estilo a toda tag p que tenha a classe red que esteja dentro de uma div
+
+.divisao > p - Irá aplicar o estilo a todos os parágrafos que são filhos direitos do elemento que tenha a classe .divisao
+
+.divisao + p - Irá aplicar o estilo ao parágrafo irmão mais próximo do elemento que tenha a classe .divisao
+
+.exemplo ~ p - Irá selecionar todos os elementos p's irmão do elemento que tenha a classe .divisao

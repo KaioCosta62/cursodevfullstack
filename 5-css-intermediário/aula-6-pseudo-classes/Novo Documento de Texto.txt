@@ -1,0 +1,13 @@
+Para usar pseudo-classes usamos a seguinte sintaxe: propriedade:pseudo-classe{}
+
+:hover - Irá aplicar um estilo sempre que passamos o mouse no elemento que estamos selecionando
+
+:first-child - Irá selecionar o primeiro filho de um elemento
+:last-child - Irá selecionar o último filho de um elemento
+:nth-child() - Usamos esse seletor quando queremos selecionar algum elemento especifico, por exemplo: queremos selecionar o quinto parágrafo da div, os valores começa a partir do número 1
+
+Temos classes especificas para link: visited e active:
+
+-:visited - Irá aplicar uma regra de estilo quando o link foi visitado
+-:active - Irá aplicar uma regra de estilo quando o link estiver ativo
+

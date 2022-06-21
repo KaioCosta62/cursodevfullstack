@@ -1,0 +1,1 @@
+O header é uma tag semântica que se remete ao cabeçalho do nosso site

@@ -1,0 +1,37 @@
+::selection{
+  color: pink;
+  background-color: #ccc;
+}
+
+p::first-line{
+  color: orange;
+}
+
+p::first-letter{
+  font-size: 50px;
+  color: red;
+}
+
+h1{
+  text-align: center;
+}
+
+h1::before{
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url('http://cdn.onlinewebfonts.com/svg/img_452053.png');
+  background-size: cover;
+  margin-right: 10px;
+}
+
+h1::after{
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url('http://cdn.onlinewebfonts.com/svg/img_452053.png');
+  background-size: cover;
+  margin-left: 10px;
+}

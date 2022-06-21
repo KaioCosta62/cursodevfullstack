@@ -1,0 +1,5 @@
+Display none permite ocultar um elemento da tela, o espaço do elemento ocultado pode ser usado por outro elemento que venha após.
+
+Visibility com valor hidden também oculta um elemento, porem ele não remove o espaço daquele elemento na tela, ele continua ali, logo outros elementos não conseguem ocupar esse espaço.
+
+Opacity permite mecher com a transparência de um elemento, indo de 0 a 1, quanto menor o valor, mais transparente ele fica

@@ -1,0 +1,17 @@
+.link{
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: #ccc;
+}
+
+ul{
+  background-color: grey;
+  padding: 20px;
+}
+
+ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+

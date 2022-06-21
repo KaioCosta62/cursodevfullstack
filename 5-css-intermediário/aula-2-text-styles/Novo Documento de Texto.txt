@@ -1,0 +1,24 @@
+text-align - Alteramos o alinhamento do text
+
+font-weight - Alteramos a espessura da fonte
+
+font-style - Alteramos o estilo da fonte(italico, bold, normal, etc)
+
+font-varient - Algumas fontes possui variações, com essa propriedade podemos alterar isso
+
+text-transform - Alteramos as palavras, colocando tudo maiusculo, minusculo ou colocando o 
+primeiro caractere de cada palavra em maiusculo
+
+font-size - Alteramos o tamanho da fonte
+
+text-decoration - Alteramos a decoração dos textos, por exemplo nos links
+
+text-indent - Alteramos o espaço da primeira palavra em relação a margin, muito comum isso em livros, blogs
+
+letter-spacing - Manipulamos o espaço entre cada caractere
+
+word-spacing - Manipulamos o espaçamento entre cada palavra
+
+line-height - Manipulamos a altura da linha
+
+text-shadown - Adicionamos sombra nos textos (horizontal, vertical, desfoque, cor)

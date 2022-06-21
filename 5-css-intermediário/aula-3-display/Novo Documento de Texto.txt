@@ -1,0 +1,5 @@
+A tag div por padrão, é do tipo block, todos elementos do tipo block,ocupam 100% do espaço disponível, onde conseguimos mexer no width e height.
+
+Elementos do tipo inline, não se comporta como uma caixa, se comportam como uma linha, onde o tamanho do elemento é baseado em seu conteúdo, não conseguimos mexer no width e height desses elementos do tipo inline. Tudo que é display inline fica lado a lado
+
+Elementos com display inline-block, terá um comportamento de bloco mas irá anular o espaço ao lado e encaixa outros elementos ao lado dele

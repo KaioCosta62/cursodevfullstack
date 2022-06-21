@@ -1,0 +1,18 @@
+body{
+  background-image: url('../bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body > p{
+  /*
+  display: none;
+  */
+  visibility:hidden;
+}
+
+.box{
+  background-color: #575757;
+  opacity: 0.6;
+}
+
+
