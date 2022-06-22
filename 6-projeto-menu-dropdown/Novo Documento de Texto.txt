@@ -1,0 +1,3 @@
+Por questão de usabilidade, devemos aumentar a área de clique do nosso menu, principalmente para pessoas que utiliza dispositivo móvel.
+
+Para criar o dropdown, criamos uma lista dentro do item da nossa lista
