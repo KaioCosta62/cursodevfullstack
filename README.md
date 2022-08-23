@@ -3,7 +3,7 @@
 
 Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScript, ReactJs, NodeJs e Git
 
-## Aprendizado HTML até o momento
+## Aprendizados de HTML até o momento
 
 - Tags básicas
 - Identação
@@ -15,7 +15,7 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Formulários e seus elementos
 
 
-## Aprendizado CSS até o momento
+## Aprendizados de CSS até o momento
 
 - Ajustes de texto
 - Background Image
@@ -32,5 +32,72 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Pseudo Classes/ Pseudo Elementos
 - Variados tipos de position
 - DevTools
+- Variáveis
+- Import
+- Filter
+- Unidades de medida
+- Transitions
+- Transform
+- Animations
+- FlexBox
+- Medias Queries
 
+## Aprendizados de SASS até o momento
+
+- Seletores
+- Variáveis
+- Partials
+- Mixins
+- Condicionais
+
+## Aprendizados de JavaScript até o momento
+
+- DOM
+- Statements
+- Variáveis (var,let e const)
+- Tipos de dados (number, string, boolean, undefined, null, symbol, array, objetos)
+- Operadores aritméticos
+- Operadores de atribuição
+- Operadores comparativos
+- Operadores lógicos
+- Condicionais
+- Switch
+- Laço de repetição For
+- Laço de repetição Do While
+- Laço de repetição while
+- Laço de repetição for of
+- Laço de repetição for in
+- Functions
+- Objeto window
+- Objeto document
+- Seletores
+- ClassList
+- Eventos
+- Tipos de Eventos
+- SetTimeout
+- SetInterval
+- Form
+- Scope
+- Hoinsting
+- Arrow Functions
+- Método de array Map
+- Método de array Filter
+- Método de array Reduce
+- JSON
+- Local Storage
+- Código síncrono
+- Código assíncrono
+- AJAX
+- Call Backs
+- Promise
+- Fetch
+- Async e Awaits
+- Desestructuring Assignment
+
+## Aprendizados de Terminal Shell até o momento
+
+- Listagem de diretórios
+- Criando e apagando diretórios
+- Navegando entre diretórios
+- Criando e apagando arquivos
 
