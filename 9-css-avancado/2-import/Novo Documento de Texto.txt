@@ -1,0 +1,9 @@
+Caso tenhamos um site muito grande, onde existem outras páginas com outros estilos, podemos usar do import, para organizar melhor o nosso ambiente de trabalho. 
+
+Podemos usar o arquivo style.css como carro chefe e importar dentro dele, todos os estilos que temos.
+
+Exemplo: Suponhamos que temos um arquivo css somente para variáveis, invés de importar o arquivo de variáveis dentro do head do nosso html, podemos importar dentro do style.css e com isso ao carregar nosso site, o style.css irá carregar todos os estilos que forem importados dentro dele.
+
+Note que isso é muito mais prático do que importar o arquivo de variáveis em todos os arquivos html, dito que caso sejam muitos, podemos esquecer de importar em algum e gerar confusão
+
+Para importar um arquivo css usamos a palavra @import"diretorio-do-arquivo-css";

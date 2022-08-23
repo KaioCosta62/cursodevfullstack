@@ -1,0 +1,21 @@
+A propriedade animation nos permite criar animações profissionais com css
+
+Temos que criar keyframes onde vamos colocar os pontos da nossa animação
+
+Os keyframes podem ter regras de valores como: from{} to{}, ou valores com porcentagem, onde podemos controlar melhor a nossa animação
+
+Ao criar os keyframes da animação, devemos adicionar no elemento que vai ser animado algumas propriedades:
+
+Animation-name - Inserimos o nome da animação
+
+Animation-duration - Inserimos em quanto tempo a animação será feita, pode ter valores em segundos(s) ou milisegundos(ms)
+
+Animation-interation-count - Inserimos quantas vezes a animação será feita, pode receber valores numericos ou valores como: infinite, onde a animação será feita infinitamente
+
+Animation-delay - Inserimos o tempo pra animação começar
+
+Animation-timing-function - Possui os valores ease, ease-in e ease-in-out, onde informamos como a animação vai se desenvolver
+
+Animation-direction - Informa a direção da animação
+
+Animation - Propriedade que tem o shorthand: name, duration, timing-function, delay, iteration-count, direction
