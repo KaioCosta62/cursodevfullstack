@@ -1,0 +1,7 @@
+Crie uma função que retorne uma promise
+
+Essa função deverá levar 10 segundos para ser resolvida com o método resolve()
+
+Ela deve resolver com texto: 'Ok, promise resolvida!' 
+
+Você deve exibir esse texto no console

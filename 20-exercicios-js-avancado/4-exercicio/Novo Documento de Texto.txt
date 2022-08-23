@@ -1,0 +1,5 @@
+Esse exercicio eu tenho um array com objetos de alunos
+
+Eu tenho um campo de input onde vou pesquisar uma nota e se essa nota existir no array de objetos, vou exibir em uma lista, o nome/sobrenome da pessoa e a nota
+
+Caso essa nota não exista no array de objetos, eu exibo uma mensagem de erro

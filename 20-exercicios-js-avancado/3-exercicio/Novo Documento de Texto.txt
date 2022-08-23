@@ -1,0 +1,7 @@
+Nesse exercício eu tenho um unico objeto, contendo uma propriedade com as  notas de uma aluna dentro de um array, devo exibir no console a media aritmética das notas
+
+1 - Criar uma função que vai somar as notas e retornar essa soma, utilizar o método reduce
+
+2 - Criar uma função que vai receber o retorno da função soma e calcular a média e a retornar
+
+3 - Criar uma função que vai exibir a mensagem final no console, com o nome da aluna, média e total de bimestre

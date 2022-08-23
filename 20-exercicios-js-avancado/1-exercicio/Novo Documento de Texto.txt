@@ -1,0 +1,8 @@
+Temos um array de objetos que tem as propriedades nome e sobrenome, devemos retornar um novo array com o nome e o sobrenome concatenados
+
+
+1 - crio uma função que vai receber um array de alunos
+
+2 - Utilizo o método de array map para criar um novo array com o nome e o sobrenome concatenados em uma string, tudo isso vindo do array alunos e atribuo a uma variável
+
+3 - Retorno a variável

@@ -1,0 +1,7 @@
+Tenho um array de objetos, contentando as notas dos alunos, e devo retornar em um novo array apenas os alunos que tenham nota maior ou igual a 7
+
+1 - Criar uma função que recebe um array como parâmetro que vai retornar o novo array de alunos aprovados
+
+2 - Usar o filter para filtrar as notas dos alunos, se for maior ou igual a media 7, adicionar esse elemento no novo array
+
+3 - Retornar o novo array na function
