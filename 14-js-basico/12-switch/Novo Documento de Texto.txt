@@ -1,0 +1,45 @@
+O switch também é uma estrutura condicional que em certos momentos pode ser mais propício a ser utilizado em relação a estrutura if/else
+
+switch(diaSemana){
+  case 0:
+    nomeDiaSemana = 'Domingo'
+    break
+
+  case 1:
+    nomeDiaSemana = 'Segunda-feira'
+    break
+
+  case 2:
+    nomeDiaSemana = 'Terça-feira'
+    break
+
+  case 3:
+    nomeDiaSemana = 'Quarta-feira'
+    break
+
+  case 4:
+    nomeDiaSemana = 'Quinta-feira'
+    break
+
+  case 5:
+    nomeDiaSemana = 'Sexta-feira'
+    break
+  
+  case 6:
+    nomeDiaSemana = 'Sábado'
+    break
+  
+  default:
+    nomeDiaSemana = 'Houve algum erro, tente novamente'
+    break
+}
+
+document.write(`Hoje é: ${nomeDiaSemana}`)
+
+Nesse exemplo eu tenho uma variável que recebe o dia da semana em numero, através da função new Date(), e vou testar vários cases para definir o dia da semana e mostrar na tela
+
+Caso diaSemana for 0, então o valor atribuido a minha variavel nomeDiaSemana vai ser domingo, o break serve para que, ao encontrar o case certo, o java script automaticamente para de analisar os outros cases, pois já encontrou um que retorna verdadeiro
+
+Default vai ser executado caso todos os cases retornem negativo
+
+No final do código, vou exibir na tela uma mensagem informando o dia da semana

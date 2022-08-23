@@ -1,0 +1,28 @@
+Variaveis servem pra armazenar valores por um tempo de execução do programa
+
+Strings devem ser armazenadas através de aspas
+
+var idade = 21 // number
+var idade = '21' // string
+
+Temos 3 formas de escrever variáveis: var, let e const
+
+O uso de var está em desuso, pois tem alguns comportamentos em questões de escopo que geram efeitos colaterais no sistema, atualmente utilizamos let e const para armazenar valores
+
+O let tem um comportamento diferente em questões de escopo, é algo mais reservado, usamos sempre o let hoje para criar variáveis
+
+Com var e também let, podemos alterar o valor da variáveis
+
+let nome = 'Kaio'
+
+nome = 'Ricardo'
+
+No exemplo acima, estamos sobrescrevendo o valor da variável nome
+
+Com o const não podemos sobrescrever o valor, sempre terá o mesmo valor durante a execução do sistema
+
+O const serve para manter a consistência do sistema, diminuir a chance de bugs e efeitos colaterais, então sempre em nosso sistema em que temos um valor que não será alterado, devemos utilizar o const
+
+Para nomes de variáveis o camelCase é muito utilizado para manter uma organização no código
+
+Não devemos usar nomes reservados em variáveis, começar com números

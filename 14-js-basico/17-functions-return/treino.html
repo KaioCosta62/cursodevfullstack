@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #aprovados, #reprovados{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alunos aprovados</h1>
+  <ul id="aprovados"></ul>
+
+  <h1>Alunos reprovados</h1>
+  <ul id="reprovados"></ul>
+
+  <button onclick="document.querySelector('#aprovados').style.display = 'block'">Exibir aprovados</button>
+
+  <button onclick="document.querySelector('#reprovados').style.display = 'block'">Exibir reprovados</button>
+  
+  <script src="treino.js"></script>
+</body>
+</html>

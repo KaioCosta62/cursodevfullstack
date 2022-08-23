@@ -1,0 +1,14 @@
+Nesse exemplo temos algo muito simples, basicamente temos dois botões e eu vou alterar o atributo src do nosso elemento img com o id lampada sempre que eu clicar no botão
+
+<button onclick="document.querySelector('#lampada').src = 'lampada_ligada.gif'">Acender</button>
+
+No exemplo acima, sempre que eu fizer o evento de click no botão, ele vai pedir pra encontrar dentro do documento algum elemento com o id lampada e logo em seguida alterar o src para lampada_ligada.gif
+
+<button onclick="document.querySelector('#lampada').src = 'lampada_desligada.gif'">Apagar</button>
+
+Já nesse exemplo, ocorre a mesma coisa só que ao invés de mostrar a lampada ligada, vai mostrar a lampada desligada
+
+onClick basicamente é um evento do usuário, nesse caso um clique.
+
+Resumidamente esse projeto eu acesso uma imagem através do seu id e altero o src sempre que clicar em acender ou apagar
+

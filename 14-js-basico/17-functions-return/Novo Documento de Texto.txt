@@ -1,0 +1,20 @@
+let nota1 = parseInt(prompt("Insira sua primeira nota"))
+let nota2 = parseInt(prompt("Insira a segunda nota"))
+
+function calcularMedia(primeiraNota, segundaNota){
+  return (primeiraNota + segundaNota) / 2
+}
+
+let resultadoMedia = calcularMedia(nota1, nota2)
+
+document.write(resultadoMedia)
+
+Nesse exemplo eu estou recebendo 2 notas e guarando elas nas variáveis nota1 e nota2
+
+A minha função vai ser encarregada de calcular a média, recebe 2 parâmetros: primeiraNota e segunda nota, o retorno dessa função vai ser o resultado da média
+
+Eu criei uma variável que vai receber esse valor (resultadoMedia)
+
+Basicamente então eu exibo na tela através do document.write o valor atribuido a variável resultadoMedia que tem origem do retorno da minha função
+
+Sempre que temos o return, podemos criar uma variável que vai receber o retorno dessa função e a partir dai fazer o que quiser

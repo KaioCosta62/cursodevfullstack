@@ -1,0 +1,13 @@
+While é um laço de repetição assim como o for, for of, etc.
+
+let contador = 1
+let numeroAleatorio = Math.floor(Math.random() * 10 + 1)
+
+while(contador <= 10){
+  console.log(`${numeroAleatorio} x ${contador} = ${numeroAleatorio * contador}`)
+  contador++
+}
+
+Note que pela estrutura dele, ao declarar o while, colocamos nossa condição, mas note que no while não se  cria o contador na expressão em si, eu criei ele antes, e incrementei +1 sempre que o laço for finalizado.
+
+Nesse exemplo eu crio uma variável que recebe um valor aleatório de 1 a 10 e mostro a tabuada correspondente desse número no console do navegador

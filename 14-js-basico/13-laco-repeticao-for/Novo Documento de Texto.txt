@@ -1,0 +1,36 @@
+Laços de repetições são utilizados sempre que temos que repetir algum determinado trecho de código mais de uma vez.
+
+Por exemplo: Temos uma lista de clientes vindo do banco de dados e queremos exibir na tela, logo usamos uma estrutura de repetição pra não ter que ficar repetindo código trocentas vezes.
+
+Outro exemplo: Queremos saber o ano de nascimento de uma pessoa, é totalmente inviável criar essa estrutura a mão, 1900,1901, até 2021... Com isso usamos uma estrutura de repetição pra montar certinho as opções de ano de nascimento para que o usuário escolha
+
+Sintaxe do for: for(variavel de controle; condicao; incremento) { código }
+
+for(let contador = 0; contador <= 5; contador++ ){
+  console.log(contador)
+}
+
+Esse for vai se repetir de 0 até 5
+
+A cada vez que o for executar o trecho de código, vai ser incrementado +1 na variável contador, quando chegar em 5, a execução do laço de repetição vai ser encerrada
+
+Devemos tomar cuidado com o looping infinito, onde basicamente o for vai ser executado infinitamente e vai travar o navegador, temos que ter atenção quando estruturamos o for
+
+
+
+let cliente = ''
+let clientes = ['Kaio', 'Rafael', 'José', 'Miriam', 'Viviane', 'José','Matheus']
+
+for(let contador = 0; contador < clientes.length; contador++){
+  cliente += `<li>${clientes[contador]}</li>`
+}
+
+document.querySelector('#listaClientes').innerHTML = cliente
+
+Nesse exemplo eu tenho um array com nomes de clientes, o meu for vai ser executado 6 vezes, pois ali na condição eu coloquei < clientes.length, como clientes.length = 7, o for vai executar 6 vezes que é exatamente o número de elementos do meu array ( lembrado que no array a contagem começa do 0)
+
+A cada vez que ele executar, eu vou concatenar com minha variavel cliente, uma li, onde vai ter o nome da pessoa correspondente ao numero da vez que o for estiver sendo executado, após o for ser encerrado, vou adicionar todos meus elementos da variavel cliente na minha ul com id listaCLientes
+
+Obviamente que o que eu fiz nesse exemplo, não é a melhor forma de criar uma lista dinâmica via JS, mas foi apenas para estudo do for
+
+O for nos permite percorrer itens de arrays e manipular esses itens da forma como a gente preferir

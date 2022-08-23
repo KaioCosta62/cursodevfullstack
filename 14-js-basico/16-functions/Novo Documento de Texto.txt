@@ -1,0 +1,39 @@
+As funções servem para deixar nosso código mais simplificado
+
+Podemos separar nosso sistema em pequenas funções que fazem determinada tarefa
+
+Sintaxe da function: function nomeDaFuncao(parâmetros){
+  código...
+}
+
+Parâmetros são basicamente variáveis, uma função pode ou não ter parâmetros
+
+Quando criamos uma função, ela não é executada de cara.
+
+Para executar nossa função basicamente chamamos ela: nomeDaFuncao()
+
+
+function escreverNoConsole(mensagem){
+  console.log(mensagem)
+}
+
+escreverNoConsole('Olá, seja bem vindo')
+
+
+Nesse exemplo, tenho uma função que vai exibir no console do navegador o valor passado para o parâmetro mensagem
+
+O valor é passado quando vamos executar a função, logo a string Olá, seja bem vindo, vai ser atribuida a variável mensagem, que por sua vez, irá ser exibida no console
+
+Uma função tem a capacidade de executar um determinado código baseado em uma instrução que passamos pra ela
+
+Uma função pode receber nenhum,1 ou vários parâmetros
+
+Se uma função tem um parâmetro e na hora de chamar a função não passamos um valor para esse parâmetro, o valor será atribuido como undefined
+
+Os parâmetros podem ter valores padrões, logo se não passarmos nenhum valor para eles na chamada da função, o valor padrão irá prevalecer
+
+function alterarBackGroundTela(color = 'darkblue'){
+  document.querySelector('body').style.backgroundColor = color
+}
+
+Nesse exemplo, se minha função não receber nenhum valor na chamada, color terá o valor de darkblue

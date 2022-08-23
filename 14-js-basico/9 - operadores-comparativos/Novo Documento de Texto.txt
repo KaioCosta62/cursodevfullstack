@@ -1,0 +1,19 @@
+== Igualdade de valores
+
+=== Igualdade de valores e tipos
+
+!= Diferença de valores
+
+!== Diferença de valores e tipos
+
+> maior
+
+>= maior ou igual
+
+< menor
+
+<= menor ou igual
+
+Operadores comparativos retornam valores booleanos
+
+Na prática sempre utilizados === e !== para comparar tipos e também valores

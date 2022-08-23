@@ -1,0 +1,68 @@
+O javascript é uma linguagem que tem a tipagem dinâmica, quando declaramos variáveis, a engine da linguagem já sabe o tipo da variável, enquanto em outras linguagens, ao criar uma variável temos que definir o tipo dela.
+
+Os tipos de dados do javascript são: string, number, boolean, array, object, undefined e null
+
+O operador + serve para fazer operação de adição, mas também pode ser usado para concatenar informações
+
+Com o ES6 temos a ferramenta chamada templete literal, que é uma nova forma de concatenar informações de uma forma organizada sem ter que ficar utilizando o +
+
+console.log(`${nome} ${sobrenome}`) Dentro das crazes temos 2 variáveis sendo exibidas, nome e sobrenome
+
+Sempre que queremos exibir o valor de uma variável, colocamos ela dentro do ${}, também podemos fazer operações, etc.
+
+
+Strings são compostas por textos e ficam entre aspas
+
+Number são números, onde não pode ser englobado por aspas, pois ai estará sendo transformado em string
+
+let numeroString = '10'
+console.log(numeroString + 20) O resultado disso será a concatenação de '10' + 20 = '1020'
+
+Temos number do tipo inteiro e do tipo flutuante
+
+Number do tipo flutuante é englobado pelo ponto(.) Ex: 17.55
+
+Boolean é um tipo de dado binário, possui dois valores: true ou false
+
+Um array basicamente nos permite armazenar varios tipos de dados dentro de uma 'caixinha'
+
+Podemos exibir a quantidade de elementos do array com a propriedade length
+
+Para exibir um unico elemento específico do array, basta colocar a posição que ele representa dentro do array, lembrando que a contagem começa a partir do 0
+
+let habilidades = ['JavaScript', 'React', 'HTML', 'CSS']
+habilidades.length // 4
+habilidades[0] // JavaScript
+
+Caso nos tentarmos acessar uma posição que não existe, a linguagem retorna o valor undefined
+habilidades[4]
+
+Note que mesmo o array tendo 4 elementos, a contagem começa do valor 0, logo temos 3 posições dentro do array
+
+
+Object é parecido com array pórem nos da mais flexibilidade para guardar os dados
+
+Um objeto é composto por propriedades e valores
+
+Para acessar alguma propriedade do objeto, usamos a notação de ponto(.)
+
+let pessoa = {
+  nome: 'Kaio',
+  sobrenome: 'Henrique',
+  idade: 21,
+  profissao: 'Programador',
+  habilidades: ['JS', 'HTML', 'CSS', 'React', 'Node']
+}
+pessoa.nome // Kaio
+pessoa.idade // 21
+pessoa.habilidades // ['JS', 'HTML', 'CSS', 'React', 'Node']
+pessoa.habilidades[0] // JS
+
+
+Undefined - É alguma coisa que ainda não tem um valor definido
+
+let endereco
+
+Essa variável foi criada mas não foi definido um valor para ela
+
+Null - Nulo

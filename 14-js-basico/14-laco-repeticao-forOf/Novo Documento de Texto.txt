@@ -1,0 +1,29 @@
+For of é uma variação do for, onde deixa nosso código um pouco mais simplificado e menos verboso
+
+Arrays de objetos são muito comuns no dia-a-dia do desenvolvedor, sempre que pegamos algo do banco de dados, normalmente nos retorna a um array de objetos, sempre que consumimos uma API, ela é feita nesse molde
+
+let clientes = [
+  {
+    nome: 'Kaio',
+    idade: 21,
+    linguagens: ['JavaScript', 'PHP', 'Python']
+  },
+  {
+    nome: 'Vivian',
+    idade: 29,
+    linguagens: ['C++', 'C#', 'C']
+  },
+  {
+    nome: 'César',
+    idade: 40,
+    linguagens: ['JavaScript', 'Ruby', 'PHP', 'Go', 'C']
+  }
+]
+
+for(let cliente of clientes){
+  console.log(cliente)
+}
+
+Nesse exemplo, estou utilizando o for, percorrendo o array clientes. Cliente nesse caso representa cada objeto do meu array
+
+Podemos ter um for dentro de outro for

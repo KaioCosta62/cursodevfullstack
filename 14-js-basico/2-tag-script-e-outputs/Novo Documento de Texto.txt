@@ -1,0 +1,15 @@
+Podemos ter códigos java script dentro do próprio elemento html, através da tag script, esse método não é recomendado pois pode causar confusão em caso do projeto ser grande e também problemas de performance. O ideal é sempre ter arquivos separados.
+
+Output significa saida de dados
+
+alert() é uma função que cria uma caixa de alerta no nosso navegador
+
+console.log() é uma função parecida com alert, pórem não cria uma caixa de alerta, mas sim exibe dados no console do devtools, são muito utilizadas no dia-a-dia do desenvolvedor para verificar se alguns dados estão corretos, etc.
+
+document.write - É uma função do document que cria um texto no nosso body, também não é muito utilizada.
+
+document.querySelector('#titulo').innerHTML = 'Titulo da minha página alterado via JavaScript!';
+
+Esse código acima basicamente quer dizer: Documento, procura algum elemento com o id titulo e altera o conteúdo html dele para: Titulo da minha página alterado via JavaScript!;
+
+O document possui várias funções atreladas a ele, querySelector é uma delas.

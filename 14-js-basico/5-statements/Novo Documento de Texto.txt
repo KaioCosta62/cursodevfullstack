@@ -1,0 +1,9 @@
+O ; no final da linha de código se tornou opcional, vai do gosto de cada desenvolvedor, o ; determina o final de uma instrução, logo se quisermos ter 2 instrucoes uma ao lado da outra, precisamos do ;, embora não seja boa pratica ter uma instrução ao lado da outra
+
+// Comentário de uma linha
+
+/* */ Comentário de múltiplas linhas
+
+Um programa de computador é uma lista de passo a passo pra ser executado
+
+Um programa é composto por valores, operadores, expressoes, palavras-chave e comentários

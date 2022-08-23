@@ -1,0 +1,22 @@
+Operadores artiméticos
+
++ = adição
+- = subtração
+* = multiplicação
+/ = divisão
+** = exponenciação
+% = módulo
+
+O operador + pode fazer adição e também concatenações
+
+NaN = Not a Number - Ocorre quando tentamos fazer algum cálculo quando um dos valores não é um número
+
+O operador % retorna o resto da divisão
+
+++ - Vai sempre adicionar mais um no valor que ela tiver operando
+-- - Vai sempre remover um no valor que tiver operando
+
+Operadores de atribuição
+
++= - 5 += 10 é basicamente um shorthand de 5 = 5 + 10
+-= - 20 -= 10 é basicamente um shorthand de 20 = 20 - 10

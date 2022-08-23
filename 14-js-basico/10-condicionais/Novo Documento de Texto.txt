@@ -1,0 +1,37 @@
+Condicionais permite determinar direções ao nosso programa
+
+Baseado em alguma informação vamos tomar decisões
+
+Uma das estruturas condicionais é o if
+
+Sintaxe: if (condicao){código a ser executado caso a condição for verdadeira}
+else{código a ser executado caso as outras condições forem falsas}
+
+
+let idade = 18
+
+if (idade >= 18){
+  document.write('Você é maior de idade')
+}else{
+  document.write('Você é menor de idade')
+}
+
+Nesse exemplo eu estou verificando se uma pessoa é maior ou menor de idade baseado na idade dela, caso seja maior ou igual a 18 o programa toma um caminho, caso seja menor, o programa toma outro caminho
+
+O código só vai ser interpretado caso a condição que esteja entre parênteses for verdadeira
+
+Caso todas as estruturas de if/else if forem falsas, o else será executado
+
+O prompt é uma função que permite que o usuário entre com dados, é algo defasado, mas para estudar é uma boa ferramenta
+
+if(idade >= 18){
+  document.write(`Olá ${nomePessoa}! Você tem ${idade} anos, logo você é maior de idade, boa festa`)
+}else if (idade >= 16 && idade < 18){
+  document.write(`Olá ${nomePessoa}! Você tem ${idade} anos, logo você é menor de idade, precisa de declaração dos pais para entrar na festa`)
+}else{
+  document.write(`Olá ${nomePessoa}! Você tem ${idade} anos, logo você é menor de idade, não pode entrar na festa`)
+}
+
+No exemplo acima eu verifico a idade, caso seja maior ou igual a 18, a pessoa poderá comparecer a festa, caso ela tenha menos que 18 mas tenha pelo menos 16 anos, poderá ir a festa com uma declaração dos pais, caso ela tenha menos que 16 anos, não poderá entrar na festa
+
+O else if é uma condição que poderá ser executada caso a condição do if seja falsa
