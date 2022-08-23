@@ -1,0 +1,11 @@
+Basicamente, desestructuring assignment é você desestruturar um objeto, extrair informações de um objeto de uma forma mais simples 
+
+const {nome,idade,profissao, cargo} = dados
+
+Nesse exemplo eu estou criando 4 variáveis de uma forma muito rápida e pegando as informações vindas do objeto dados
+
+O nome das propriedades tem que ser igual, caso queira mudar o nome da propriedade basta fazer isso:
+
+const {nome: inputNome} = dados
+
+Nesse caso a variável não mais vai se chamar nome e sim inputNome

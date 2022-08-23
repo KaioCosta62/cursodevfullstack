@@ -1,0 +1,40 @@
+Código síncrono são códigos onde são executados exatamente na ordem que estão inseridos
+
+function primeira(){
+  console.log("Primeira função")
+}
+
+function segunda(){
+  console.log("Segunda função")
+}
+
+primeira()
+segunda()
+
+Esse é um exemplo de código sincrono, onde o interpretador vai executar primeiro a primeira função e logo em seguida a segunda função
+
+
+
+function primeira(){
+  console.log("Primeira função")
+}
+
+function segunda(){
+  console.log("Segunda função")
+}
+
+
+
+setTimeout(primeira, 2000) 
+
+segunda()
+
+Esse é um exemplo de código assíncrono, onde o interpretador passa pelo setTimeout, entende ele, mas não espera 2 segundos pra executar a primeira função para logo em seguida executar a segunda. Vai ser executado a segunda função e após 2 segundos o que estiver dentro do setTimeout vai ser executado
+
+
+setTimeout e setInterval são funções assíncronas
+
+
+Um exemplo de código assincrono muito utilizado no dia a dia, é uma requisição a uma API
+
+Quando fazemos uma requisição, criamos uma conexão do nosso servidor ao servidor da API e normalmente não é instantâneo, tem um pequeno delay, dependendo da velocidade da internet e nos não podemos parar nosso código pra esperar essa conexão ser feita para continuar o fluxo do nosso site, queremos continuar com o fluxo normal do site e quando a requisição estiver pronta, fazer o que desejamos, então criamos um código assíncrono pra fazer essa requisição a um servidor externo

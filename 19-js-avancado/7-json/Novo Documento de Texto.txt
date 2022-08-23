@@ -1,0 +1,26 @@
+JSON significa JavaScript Object Notation
+
+JSON é um padrão para transitar informações de um sistema para outro
+
+Por exemplo, quando fazemos alguma requisição externa para alguma API, nos recebemos esse código em formado JSON, a partir disso conseguimos transformar esse JSON para código java script legível e conseguimos manipular essas informações
+
+O json transforma um código javascript em uma string
+
+Todos os sistemas se comunicam por JSON, independente da linguagem de programação
+
+Antigamente os sistemas se comunicavam por XML
+
+const objeto = {
+  nome: 'Kaio',
+  idade: 21,
+  profissao: 'Programador',
+  fazFaculdade: true
+}
+
+const objetoJson = JSON.stringify(objeto)
+
+JSON.stringify() Recebe um objeto como parâmetro e o transforma em um JSON
+
+const objetoParseado = JSON.parse(objetoJson)
+
+JSON.parse() Recebe um objeto JSON e o transforma em um objeto java script legível 

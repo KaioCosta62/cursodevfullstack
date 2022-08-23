@@ -1,0 +1,41 @@
+Local Storage significa armazenamento local, onde iremos armazenar dados no navegador do usuário
+
+localStorage.setItem('tarefa', 'estudar js')
+
+Basicamente a função setItem irá adicionar algo no localStorage ela recebe 2 parâmetros: identificador e o valor correspondente a esse identificador. No exemplo acima defini o identificador como tarefa e o valor estudar js.
+
+Essas informações ficam salvas no local storage do navegador
+
+O local storage é extremamente útil no nosso dia a dia. Exemplo: Quando acessamos um site e inserimos dados, ao acessar novamente o site, os dados ainda estão lá preenchidos, isso é graças ao local storage, que salvam esses dados.
+
+
+localStorage.getItem('tarefa')
+
+A função getItem, nos retorna um valor de um determinado identificador. A função recebe apenas o identificador como parâmetro
+
+
+const tarefas = [
+  {tarefa: 'Estudar js'},
+  {tarefa: 'Estudar node.js'},
+  {tarefa: 'Estudar react.js'}
+]
+
+const tarefasJson = JSON.stringify(tarefas)
+
+localStorage.setItem('tarefas', tarefasJson)
+
+const listaDeTarefasSalvas = localStorage.getItem('tarefas')
+
+const listaTarefasObj = JSON.parse(listaDeTarefasSalvas)
+
+console.log(listaTarefasObj)
+
+Nesse exemplo eu tenho um objeto com tarefas de um usuário
+
+Na constante tarefasJson eu converto esse objeto para json
+
+Adiciono no local storage esse json atribuido ao identificador tarefas
+
+Na constante listaDeTarefasSalvas eu recebo esse json
+
+Na constante listaTarefasObj eu converto esse json para um objeto java script

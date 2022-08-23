@@ -1,0 +1,3 @@
+Basicamente é uma estrutura de código que permite transformar uma chamada de código assíncrona em síncrona
+
+Pra usar await, a função que vem a frente dele, tem que ser uma promise

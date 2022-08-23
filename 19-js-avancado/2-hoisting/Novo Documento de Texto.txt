@@ -1,0 +1,18 @@
+Hoisting significa erguer
+
+O javascript basicamente move todas as declarações para o topo de um escopo
+
+function teste(){
+
+  outraFuncao()
+
+  function outraFuncao(){
+    console.log('Sou a outra função')
+  }
+
+}
+
+
+Nesse exemplo eu tenho uma função e dentro dela existe outra função, mas note que eu estou executando a outraFuncao() sem nem mesmo ter declarado ela ainda, no javascript isso é possível, pois quando eu declaro a function outraFuncao(), automaticamente ela é movida para o topo de seu escopo.
+
+Por boa prática, é bom nos executarmos algo somente depois de ter declarado

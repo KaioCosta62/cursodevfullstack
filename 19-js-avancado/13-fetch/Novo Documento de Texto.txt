@@ -1,0 +1,11 @@
+O fetch substituiu o XMLHttpRequest()
+
+O fetch é uma promise
+
+Podemos encadear varias funções com o then e podemos ter 1 catch.
+
+As funções no then tem que retornar algo
+
+A 1 função no fetch vai receber um objeto e esse objeto tem vários dados da requisição (info de status, cors, e um metodo json() que retorna os dados em json)
+
+O fetch tem 2 parâmetros: 1 é a url da requisição e o 2 é um objeto {} onde colocamos as configurações da requisição

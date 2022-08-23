@@ -1,0 +1,1 @@
+callback é uma função que passamos para outra função

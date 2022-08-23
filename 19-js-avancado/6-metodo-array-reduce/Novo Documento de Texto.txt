@@ -1,0 +1,13 @@
+O reduce reduz um array a um unico valor, não necessariamente retorna um array, pode ser um objeto, string, number etc
+
+O reduce recebe 2 valores, o primeiro parâmetro é um acumulador, ele está ligado ao que o reduce vai retornar, no exemplo abaixo, acc é o próprio objeto e o segundo parâmetro é o item que ele está percorrendo 
+
+Temos que passar dentro do reduce o que queremos que retorne
+
+const clientesFinal = clientes.reduce((acc,curr) => {
+
+}, {})
+
+Nesse exemplo, eu vou retornar do reduce um objeto
+
+O reduce também precisa que retornemos algo para ele, no caso, o próprio acumulador

@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  padding: 0 2%;
+  margin-top: 100px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.box{
+  width: 200px;
+  border: 2px solid #ededed;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+}
+
+.box h1{
+  font-size: 16px;
+}
+
+.box img{
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+  margin-top: 15px;
+  border: 2px solid darkgreen;
+  display: flex;
+}

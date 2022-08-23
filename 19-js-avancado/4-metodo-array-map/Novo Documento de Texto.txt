@@ -1,0 +1,20 @@
+O map é um método de array, ele retorna sempre um novo array
+
+O método push() adiciona um novo elemento a um array
+O método pop() remove o último elemento de um array
+
+Precisamos retornar algo no método map() para adicionar ao novo array
+
+const clientes = [
+  {name: 'Kaio', lastName: 'Henrique'},
+  {name: 'Júlia', lastName: 'Guimarães'},
+  {name: 'Karla', lastName: 'Costa'}
+]
+
+
+let clientesFinal = clientes.map(cliente => `${cliente.name} ${cliente.lastName}`)
+console.log(clientesFinal)
+
+Nesse exemplo, estou percorrendo meu array clientes com o método map e concatenando os valores de name e lastName e adicionando ao meu novo array que está atribuido a variável clientesFinal
+
+O método map possui 3 parâmetros: o elemento do array, o index e o próprio array

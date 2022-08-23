@@ -1,0 +1,30 @@
+No javascript existem o escopo global e o escopo local
+
+A função de um escopo é determinar a visibilidade de uma variável
+
+As funções no js criam seu próprio escopo
+
+As variáveis(let e const) declaradas dentro de uma função, for, if, somente estão acessíveis dentro desse escopo local
+
+function imprimirNome(){
+  let nome = 'Kaio'
+  console.log(nome)
+}
+
+//console.log(nome) // Não consigo acessar a variável nome fora do escopo da função
+imprimirNome()
+
+
+
+Variáveis declaradas no escopo global podem ser acessadas em escopos locais
+
+const nomeComposto = 'Kaio Henrique'
+
+function imprimirNomeComposto(){
+  console.log(nomeComposto)
+}
+
+imprimirNomeComposto() 
+
+
+Sempre que executamos uma função, o js exclui da memória o conteúdo

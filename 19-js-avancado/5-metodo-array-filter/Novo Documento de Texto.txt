@@ -1,0 +1,37 @@
+O método filter vai filtrar elementos de um array
+
+O método filter retorna um novo array
+
+O filter depende que retornemos true ou false, se retornar true, ele vai incluir o elemento no novo array, se retornar false, ele não incluirá
+
+const clientes = [
+  {name: 'Kaio', lastName: 'Henrique', age: 21},
+  {name: 'Júlia', lastName: 'Guimarães', age: 18},
+  {name: 'Karla', lastName: 'Costa', age: 13}
+]
+
+const clientesMaiorDeIdade = clientes.filter((cliente) => {
+  let maiorDeIdade = false
+  
+  if(cliente.age >= 18){
+    maiorDeIdade = true
+  }
+
+  return maiorDeIdade
+})
+
+Nesse exemplo eu quero adicionar no meu novo array todas as pessoas que sejam maiores de idade
+
+Criei uma variável de controle que começa como false.
+
+Se o age for >= 18, a variável se torna verdadeira e eu adiciono no meu novo array
+
+If ternário
+
+É basicamente um if/else de uma linha só
+
+let maiorDeIdade = idade >= 18 ? 'Você é maior de idade' : 'Você é menor de idade
+
+Isso é o if ternário, onde eu tenho uma condição, se ela for verdadeira, vai executar o que vier após o ? caso seja falsa, irá executar o que vier após o :
+
+O método filter recebe 3 parâmetros: elemento, index e o próprio array

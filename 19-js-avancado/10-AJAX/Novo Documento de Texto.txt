@@ -1,0 +1,45 @@
+AJAX significa  asynchronous java script and xml
+
+O ajax é uma técnica mais antiga de requisições, com ela conseguimos também trabalhar com JSON
+
+jsonplaceholder é uma API fake, um sistema back end onde consultamos para obter determinadas informações fake, para estudo
+
+Uma API é composta de um endereço onde ela está hospedada e de endpoints
+
+EndPoint ou rota é um determinado caminho para obter uma informação
+
+https://jsonplaceholder.typicode.com/posts
+
+Nesse exemplo acima, o endpoint/rota é posts
+
+Rotas de API são feitas para consumir elas através de um sistema
+
+Quando vamos fazer requisições a um servidor, temos alguns tipos de métodos
+
+Get - Obter determinados dados
+Post - Enviar dados para a api
+
+const xhttp = new XMLHttpRequest('get', 'https://jsonplaceholder.typicode.com/photos', true)
+
+const xhttp = new XMLHttpRequest()
+
+Estou instanciando uma classe com o new
+
+xhttp.open() - Estou abrindo uma conexão, o método open recebe 3 parâmetros: tipo da requisição, endereço e se a requisição é assincrona ou sincrona, caso seja assincrona, passar o valor true
+
+xhttp.send() - Estou enviando a conexão que eu abri
+
+A aba network do devtools mostra todas as requisições de rede
+
+O método xhttp.onreadystatechange executa uma função logo após a requisição ser feita, ela recebe os dados vindo da requisição
+
+xhttp.onreadystatechange = function (){
+  if(this.readyState === 4 && this.status === 200){
+    console.log(JSON.parse(this.responseText))
+  }
+}
+
+Esse if basicamente vai executar meu console quando a requisição estiver concluida e o status for 200 (sucesso)
+
+readyState === 4 significa que a requisição foi concluida
+status === 200 significa que a resposta do servidor foi OK

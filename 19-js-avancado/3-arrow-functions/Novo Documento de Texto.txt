@@ -1,0 +1,21 @@
+Arrow functions é uma nova forma no ES6 de declarar uma função, tem uma sintaxe mais enxuta
+
+As arrow functions são atribuidas a uma variável
+
+const soma = (num1,num2) => {
+  return num1 + num2
+}
+
+const resultado = soma(10,30)
+
+A minha constante resultado vai receber o retorno da função soma
+
+Caso nossa arrow function apenas retorne algo, podemos declarar ela sem as {}
+
+const soma = (num1,num2) => num1 + num2 // Isso se chama retorno implícito
+
+Caso nossa arrow function tenha apenas 1 parâmetro, podemos declarar ela sem os ()
+
+const meuNome = nome => nome
+
+Em uma arrow function, o escopo do this é o escopo de onde ela foi declarada
