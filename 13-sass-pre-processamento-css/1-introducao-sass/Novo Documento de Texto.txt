@@ -1,7 +1,0 @@
-O sass é um pré-processador de css, nos auxilia na escrita de css e deixa o nosso código mais otimizado.
-
-O navegador não entende o arquivo .scss, logo utilizamos uma ferramenta para converter o arquivo .scss para .css, assim o navegador consegue renderizar normalmente os estilos na tela
-
-O principal recurso do sass é o conceito de hierarquia, logo conseguimos encadear códigos filhos em um seletor pai
-
-Para criar um arquivo sass utilizamos a extensão .scss
