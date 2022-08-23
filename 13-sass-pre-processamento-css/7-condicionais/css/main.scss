@@ -1,0 +1,31 @@
+@import 'base';
+@import 'mixins';
+@import 'extends';
+
+.container{
+  .box{
+    width: 400px;
+    padding: 40px;
+    background-color: #ccc;
+
+    h2{
+      margin: 20px 0;
+    }
+
+    .sucess{
+      @extend %box-alert;
+      @include bg-effect(sucess)
+    }
+
+    .danger{
+      @extend %box-alert;
+      @include bg-effect(danger)
+    }
+
+    .warning{
+      @extend %box-alert;
+      @include bg-effect(warning)
+    }
+
+  }
+}

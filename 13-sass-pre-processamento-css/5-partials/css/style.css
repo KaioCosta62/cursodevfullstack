@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container .box {
+  width: 300px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+}
+.container .box h1, .container .box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .box h1 {
+  font-family: "Arial", sans-serif;
+}
+.container .box h2 {
+  font-family: "Courier New", sans-serif;
+}
+.container .box a {
+  background-color: green;
+  display: inline-block;
+  padding: 10px 30px;
+}
+.container .box a.bg-alternative {
+  background-color: red;
+}
+.container .box a.bg-alternative:hover {
+  background-color: darkblue;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

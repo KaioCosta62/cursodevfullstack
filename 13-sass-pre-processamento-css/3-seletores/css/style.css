@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .box {
+  width: 30%;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 15px;
+}
+.container .box.active {
+  background-color: red;
+}
+.container .box h2 {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Courier New", sans-serif;
+  /*
+  margin: {
+    left: 200px;
+    bottom: 40px;
+    right: 0px;
+    top: 25px;
+  }
+  */
+  margin: 50px 0px;
+}
+.container .box h2::after {
+  content: "";
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 60px;
+  height: 2px;
+  background-color: darkblue;
+  display: block;
+}
+.container .box p {
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+}
+.container .box p.hidden {
+  display: none;
+}
+.container .box a {
+  color: green;
+}
+.container .box a:hover {
+  color: yellow;
+}
+.container .box a:hover + p.hidden {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

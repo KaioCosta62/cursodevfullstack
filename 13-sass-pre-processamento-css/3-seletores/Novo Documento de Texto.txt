@@ -1,0 +1,42 @@
+Tudo que fizemos no css vai funcionar normalmente no sass, porem o sass nos dispoe de novas possibilidades que aumentam nossa produtividade na estilização do nosso site
+
+Com sass conseguimos colocar os seletores de maneira hierarquica, evitando repetição de código
+
+.container{
+  // estilização do container
+
+  .box{
+    p{} // Estilização do paragráfo que é filha de box que é filho de container
+  } // estilização da classe box filha de container
+}
+
+Quando o seletor é filho, colocamos dentro do elemento
+
+Quando o seletor é irmão usamos o & antes do elemento
+
+Usamos o & para pseudo-seletores/classes
+.box{
+  &.active {} estilização da classe active que é irmã da classe box
+}
+
+Propriedades que tem varios valores como margin, padding, font, podemos configurar os valores de forma diferente
+
+margin: 20px 50px, é a mesma coisa que: margin: {top: 20px; right: 50px; bottom: 50px, left: 50px}, pórem o código fica muito verboso sem tanta necessidade
+
+font:{
+  size: 22px;
+  weight: 300;
+  family: 'Courier Now';
+} 
+
+
+a{
+  &:hover{
+    color: green;
+    & + p.hidden{
+      display: block;
+    }
+  }
+}
+
+Quando eu passar o mouse sobre um link, a cor irá mudar para verde e quando eu passar o mouse em um link que tenha um irmão parágrafo direto com a classe hidden, irei aplicar o display block

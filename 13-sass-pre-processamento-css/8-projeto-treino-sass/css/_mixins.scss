@@ -1,0 +1,24 @@
+@mixin line-content($color){
+  @if $color == primary{
+    background-color: $bg-color-primary;
+  }
+
+  @else if $color == secondary{
+    background-color: $bg-color-secondary
+  }
+}
+
+@mixin line-box($color){
+  @if $color == purple-color{
+    background-color: #ae81ff;
+  }
+
+  @else if $color == red-color{
+    background-color: #f9265e;
+  }
+
+  @else{
+    background-color: #66d9eb;
+   
+  }
+}

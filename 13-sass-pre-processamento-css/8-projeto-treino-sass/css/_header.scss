@@ -1,0 +1,70 @@
+.company-information{
+  background-color: $bg-color-primary;
+  color: #fff;
+  @extend %padding-header;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+
+.navigation{
+  background-color: $bg-color-secondary;
+  color: #fff;
+  @extend %padding-header;
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    h1{
+      font-size: 35px;
+    }
+
+    .nav ul{
+      display: flex;
+      gap: 30px;
+
+      li a{
+        color: #fff;
+        font-size: 25px;
+
+        &:hover{
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 800px){
+
+  .company-information{
+    .container{
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+
+  .navigation{
+    .container{
+      flex-direction: column;
+      
+      .nav{
+        margin-top: 20px;
+
+        ul li a{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+}

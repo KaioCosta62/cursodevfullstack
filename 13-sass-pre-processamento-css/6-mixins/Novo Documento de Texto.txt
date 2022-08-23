@@ -1,0 +1,26 @@
+O mixin se comporta como se fosse uma função do java script, pode receber parâmetros, ter valores padrões para esses parâmetros
+
+Para criar um mixin utilizamos a sintaxe : @mixin nome_do_mixim { código }
+
+@mixin reset-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+Esse mixin eu quero zerar uma lista.
+
+ul{
+  @include reset-list;
+}
+
+Agora estou incluindo dentro da ul, as propriedades e valores existente no mixin reset-list
+
+
+.box{
+  &:first-child{
+    @include reset-list;
+  }
+}
+
+No exemplo acima, eu estou adicionando as propriedades e valores do meu mixin reset-list apenas na primeira box.

@@ -1,0 +1,37 @@
+Quando temos elementos que vão ter estilos repetidos, podemos utilizar o conceito de herança, onde um elemento vai herdar propriedades e valores
+
+%box-alert {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px #000;
+  color: #fff;
+}
+
+Utilizamos dessa sintaxe para criar uma herança
+
+.sucess{
+  @extend %box-alert
+}
+
+Logo o elemento com a classe sucess, vai herdar as propriedades e valores do elemento box-alert
+
+São semelhantes aos mixins, mas os mixins tem outros 'poderes' como parâmetros, que podem receber valores diferentes e também terem valores padrões.
+
+
+@mixin bg-effect($effect){
+  @if $effect == sucess{
+    background-color: green;
+  }
+
+  @else if $effect == warning{
+    background-color: yellow;
+    color: black;
+  }
+
+  @else if $effect == danger{
+    background-color: red;
+    color: #fff;
+  }
+}
+
+Nesse exemplo temos o uso das condicionais, se o valor passado pra $effect for sucess, o background vai ser verde, caso o valor passado seja warning, o background será amarelo e a cor de texto preta, caso seja danger, o background será vermelho e a cor branca

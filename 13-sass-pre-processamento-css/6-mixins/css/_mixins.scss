@@ -1,0 +1,7 @@
+
+@mixin reset-list($margem: 0px, $espacamento: 0px, $estilo: none, $cor-fundo: silver){
+  margin: $margem;
+  padding: $espacamento;
+  list-style: $estilo;
+  background-color: $cor-fundo;
+}

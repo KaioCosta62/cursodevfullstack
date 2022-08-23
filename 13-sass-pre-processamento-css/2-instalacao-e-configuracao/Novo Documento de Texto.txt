@@ -1,0 +1,1 @@
+Usamos a extensão live sass compiler, para compilar nosso arquivo .scss e transformar em um arquivo css que o navegador consiga renderizar.

@@ -1,0 +1,10 @@
+Para usar variáveis no sass, não precisamos declarar elas dentro do :root e nem usar o var() na hora de chamar ela, no sass somente colocamos o nome da variavel e o seu valor.
+
+$color-primary: red;
+$margin-default: 40px 50px;
+
+h2{
+  color: $color-primary;
+};
+
+Note que sempre antes do nome da variável, colocamos o $.

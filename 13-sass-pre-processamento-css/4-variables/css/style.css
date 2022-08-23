@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.container .box {
+  width: 200px;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.container .box h1, .container .box h2 {
+  text-align: center;
+}
+.container .box h1 {
+  font-family: Arial, sans-serif;
+}
+.container .box h2 {
+  font-family: "Courier New";
+}
+.container .box p.hidden {
+  display: none;
+}
+.container .box a {
+  background-color: green;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+}
+.container .box a.active {
+  background-color: red;
+}
+.container .box a.active:hover {
+  background-color: darkblue;
+  color: #fff;
+}
+.container .box a.btn-exibir:hover + p.hidden {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container .box {
+  width: 500px;
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+}
+.container .box h2 {
+  margin: 20px 0;
+}
+.container .box p {
+  margin-bottom: 20px;
+}
+.container .box:first-child ul {
+  margin: 50px;
+  padding: 20px;
+  list-style: circle;
+  background-color: darkred;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,5 @@
+O conceito de partials é basicamente conseguir separar nossos estilos em arquivos diferentes.
+
+"_base.scss" Utilizamos o _ para que não haja a compilação imediata do arquivo, pois iremos importar ele em nosso estilo sass padrão, pra que, ai sim, haja a compilação de todas nossas partials
+
+Para importar um arquivo sass, usamos o @import "nomeDoArquivo", não precisamos colocar a extensão e nem o _.

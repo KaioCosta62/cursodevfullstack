@@ -1,0 +1,40 @@
+
+@import 'base';
+@import 'variables';
+
+.container{
+  .box{
+    width: 300px;
+    background-color: $background-box;
+    color: $content-color;
+    padding: $spacing-box;
+
+    h1,h2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h1{
+      font-family: $font-primary;
+    }
+
+    h2{
+      font-family: $font-secondary;
+    }
+
+    a{
+      background-color: $background-link;
+      display: inline-block;
+      padding: 10px 30px;
+
+      &.bg-alternative{
+        background-color: red;
+      }
+
+      &.bg-alternative:hover{
+        background-color: darkblue;
+        color: #fff;
+      }
+    }
+  }
+}

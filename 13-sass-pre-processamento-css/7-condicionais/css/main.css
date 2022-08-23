@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+span {
+  display: block;
+  margin-top: 20px;
+}
+
+.container .box .warning, .container .box .danger, .container .box .sucess {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px #000;
+  color: #fff;
+}
+
+.container .box {
+  width: 400px;
+  padding: 40px;
+  background-color: #ccc;
+}
+.container .box h2 {
+  margin: 20px 0;
+}
+.container .box .sucess {
+  background-color: green;
+}
+.container .box .danger {
+  background-color: red;
+  color: #fff;
+}
+.container .box .warning {
+  background-color: yellow;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
