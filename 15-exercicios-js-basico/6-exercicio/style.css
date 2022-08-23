@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 30px;
+  padding: 0 2%;
+}
+
+#container .box{
+  width: calc(100% / 3 - 30px);
+  background-color: #ededed;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
+}
+
+#container .box p{
+  margin-top: 15px;
+  font-size: 18px;
+}

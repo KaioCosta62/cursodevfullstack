@@ -1,0 +1,31 @@
+
+​4 - Modifique o exercício anterior para exibir um alerta escrito "Preencha os campos corretamente!" caso o usuário não preencha o nome ou idade. 
+
+A página não deve exibir a mensagem de saudação neste caso.​
+
+
+// Estrutura HTML
+
+1 - criar estrutura html (button, h1 e h2)
+2 - definir a funcao que vai ser executada ao clicar no button
+3 - definir os id de h1 e h2
+
+
+
+// Estrutura JS
+
+1 - criar a função que vai ser executada ao clicar no button
+2 - criar as variaveis que vão receber nome e idade, transformar o valor de idade para o tipo number
+3 - criar variáveis que vão receber a mensagem de saudação e mensagem personalizada, definir os valores de entrada como string vazia
+4 - verificar se os valores passados para nome e idade são vazios, caso for, exibir um alerta de dados inválidos
+4.1 - Caso essa verificação seja verdadeira, exibir um alerta para preencher os campos corretamente
+5 - Vefificar se a pessoa é maior ou menor de idade
+5. 1 - Se for maior, exibir uma mensagem de saudação [Olá, [nome]. Você é maior de idade!]
+6. 2 - Se for menor de idade, exibir uma mensagem de saudação [Olá, [nome]. Você é menor de idade]
+7 - Verificar se o nome da pessoa é Thomas Anderson ou thomas Anderson
+7.1 - Se for, exibir uma mensagem personalizada. [Olá [nome], você é maior/menor de idade. Você é personagem do filme The Matrix]
+8 - Exibir a mensagem de saudacao em um h1
+9 - Exibir a mensagem personalizada em um h2
+
+
+Nesse exercicio trabalhei com: funções, operadores comparativos, estruturas condicionais, operadores lógicos, DOM

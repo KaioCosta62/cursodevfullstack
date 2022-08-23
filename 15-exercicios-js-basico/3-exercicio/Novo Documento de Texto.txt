@@ -1,0 +1,17 @@
+1 - Receber o nome 
+1.1 - Guardar o valor em uma variável
+2 - Receber a idade
+2.1 - Guardar o valor em uma variável
+3 - Declarar as variáveis de mensagem e mensagem personalizada = 'Você é personagem do filme The Matrix'
+4 - Verificar se a idade for < 0, caso seja, exibir um alerta pedindo para o usuário digitar novamente
+5 - Se a idade for >= 18
+5.1 - mensagem = 'Olá [nome], você é maior de idade!'
+5.3 - Se a idade for < 18
+5.4 - mensagem = 'Olá [nome], você é menor de idade!'
+6 - Verificar se o nome da pessoa é Thomas Anderson ou Thomas Anderson, exibir em um h2 a mensagem personalizada
+7 - Mensagem de saudação dentro de um h1
+8 - Executar tudo isso somente quando clicar no botão entrar
+9 - Imprimir o valor da variável mensagem na tela
+
+
+Nesse exercicio trabalhei com estrutura condicional, operadores lógicos, DOM, entrada de dados

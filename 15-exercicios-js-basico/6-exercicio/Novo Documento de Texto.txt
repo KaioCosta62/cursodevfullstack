@@ -1,0 +1,3 @@
+Através de um array de objetos, crie 3 caixas uma ao lado da outra pra mostrar cada uma das informações de cada objeto
+
+Utilize uma estrutura de repetição para construir as caixas

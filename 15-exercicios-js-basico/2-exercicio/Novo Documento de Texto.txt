@@ -1,0 +1,17 @@
+- Modifique o exercício anterior para exibir uma mensagem personalizada caso o nome da pessoa seja "Thomas Anderson", exibir: 
+
+"Olá [nome], você é MAIOR de idade. Você é personagem do filme The Matrix!". 
+
+Mantenha a mensagem condizente com a idade informada.​
+
+1 - Receber o nome
+1.1 - Guardar o valor em uma variável
+2 - Receber a idade
+2.1 - Guardar o valor em uma variável
+2.2 - Fazer uma verificação para ver se o valor da idade não é menor do que 0
+2.2.1 - Caso for, exibir um alerta de erro e pedir para o usuário digitar novamente
+3 - Fazer uma verificação para ver se o nome é Thomas Anderson ou thomas Anderson
+3.1 - Caso for, exibir uma mensagem personalizada
+4 - Exibir normalmente a mensagem do nome da pessoa e se é ou não menor de idade
+
+Nesse exercicío trabalhei basicamente entrada de dados, estrutura condicional ,operadores comparativos e operadores lógicos
