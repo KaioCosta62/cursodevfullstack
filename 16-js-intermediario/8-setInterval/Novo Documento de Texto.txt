@@ -1,0 +1,21 @@
+A diferença do setTimeout e do setInterval é que: o timeOut espera um determinado tempo para executar o código e o setInterval executa o código a cada X tempo
+
+Devemos tomar cuidado pois se temos muitos setInterval no nosso sistema, pode ocasionar problemas com memória, o setInterval tem um recurso para limpar o intervalo que é a função clearInterval, mas o clearInterval só funciona se nosso setInterval estiver atribuido a alguma variável
+
+
+const contador = document.querySelector('.contador')
+const botaoParar = document.querySelector('.pararContador')
+let count = 0
+
+let meuContador = setInterval(function(){
+  count++
+  contador.innerText = count
+}, 500)
+
+botaoParar.addEventListener('click', function(){
+  clearInterval(meuContador)
+})
+
+No exemplo acima, eu tenho um contador, onde a cada 500ms ele acrescenta +1 na minha variável count e exibe na tela
+
+Quando eu clicar no botão, eu irei limpar o intervalo do setInterval atribuido a variável meuContador, com isso a execução do setInterval vai ser parada

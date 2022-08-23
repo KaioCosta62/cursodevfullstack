@@ -1,0 +1,7 @@
+O classList é uma propriedade que nos permite manipular as classes de um elemento
+
+Podemos adicionar uma classe com o classList.add(''), ou podemos remover uma classe com o classList.remove('')
+
+Com isso, podemos adicionar ou remover classes de uma forma dinâmica via java script, como no exemplo de um menu mobile, quando clicamos no menu adicionamos uma classe pra exibir o menu e quando clicamos novamente, removemos essa classe para fechar o menu
+
+Basicamente flag, são variáveis de controle, que nos auxiliam na lógica da aplicação

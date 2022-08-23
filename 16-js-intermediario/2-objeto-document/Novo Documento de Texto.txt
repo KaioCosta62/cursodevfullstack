@@ -1,0 +1,1 @@
+O objeto document possui métodos e propriedades que nos permite manusear nosso documento html

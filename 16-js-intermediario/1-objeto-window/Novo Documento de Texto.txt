@@ -1,0 +1,4 @@
+Basicamente tudo no java script são objetos, repletos de métodos(funções) e propriedades, onde muitas das vezes, esses métodos também possui outras coisas atrelados a eles
+
+O objeto window é global, logo não precisamos ficar chamando: window.alert(), window.location, podemos simplismente chamar alert() e location
+

@@ -1,0 +1,1 @@
+Cada evento possui um objeto desse evento com diversos métodos e propriedades que podem ser utilizados

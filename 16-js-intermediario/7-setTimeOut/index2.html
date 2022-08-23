@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .loader{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 5px solid #ededed;
+      border-top: 5px solid green;
+      animation: loader 1s infinite linear;
+    }
+
+    @keyframes loader {
+      to{
+        transform: rotate(360deg);
+      }
+    }
+
+    h1{
+      display: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="loader"></div>
+  <h1>Bem vindo ao sistema</h1>
+
+  <script>
+    
+    setTimeout(function(){
+      document.querySelector('.loader').style.display = 'none'
+      document.querySelector('h1').style.display = 'block'
+    }, 2000)
+
+  </script>
+</body>
+</html>

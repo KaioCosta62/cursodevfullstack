@@ -1,0 +1,22 @@
+SetTimeOut é uma função que vai executar um determinado código após um tempo definido
+
+const btn = document.querySelector('#botaoCadastrar')
+const toast = document.querySelector('.toast')
+const tarefa = document.querySelector('input[name = tarefa]')
+
+btn.addEventListener('click', function(){
+  toast.innerHTML = `Tarefa [${tarefa.value}] cadastrada com sucesso!`
+  toast.classList.add('visible')
+
+  setTimeout(function(){
+    toast.classList.remove('visible')
+  }, 5000)
+  
+})
+
+Basicamente nesse código, eu simulo uma lista de tarefa, onde ao clicar no botão irei exibir na tela um card falando que a tarefa foi cadastrada com sucesso
+
+E basicamente, o meu setTimeout vai retirar o card da tela após 5 segundos (5000ms)
+
+O setTimeout recebe 2 parâmetros: O primeiro é a função de callback que vai ser executada e o segundo é em quanto tempo essa função será executada, no exemplo acima, em 5000ms ou 5 segundos
+

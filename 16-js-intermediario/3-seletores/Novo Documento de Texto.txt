@@ -1,0 +1,54 @@
+Temos diversas formas de selecionar elementos html no java script. Seletor por id, classe, tag e também podemos selecionar vários elementos de uma vez
+
+const titulo = document.querySelector('#titulo')
+titulo.innerHTML = 'Título alterado'
+
+Nesse exemplo estou salvando o meu elemento com id titulo em uma variavel
+Esse elemento tem outros métodos e propriedades que interagem com ele, dentre um deles, o innerHTML, onde altera o conteúdo html do elemento
+
+O querySelector retorna o primeiro elemento que ele encontrar
+
+O querySelectorAll retorna todos os elementos que satisfazem a nossa condição, armazenando eles dentro de uma nodeList, que é basicamente um array
+
+const ancoras = document.querySelectorAll('a')
+
+ancoras.forEach(function(ancora, index){
+  ancora.innerHTML = 'Conteúdo alterado via JS'
+  ancora.setAttribute('href', `${links[index]}`)
+})
+
+Nesse exemplo, estou salvando dentro da constante ancoras, todos os elementos que tenham a tag a
+
+Como ancoras é uma nodeList, que tem o comportamento de um array, consigo utilizar métodos e propriedades nessa nodeList
+
+O forEach é um método para arrays, onde dentro da função do forEach, recebe o que chamamos de função anônima ou callback, que possui 3 parâmetros: O elemento do array, a posição dele e o próprio array
+
+Nesse exemplo alterar o título dos meus links através da propriedade innerHTM
+
+E alterei dinâmicamente o atributo href, que vai receber o link de acordo com a posição atual do meu elemento ancora
+
+A função setAttribute te permite colocar um atributo de forma dinâmica, como o meu elemento ancora é um link, pode receber perfeitamente o href
+
+A diferença do innerHTML e do innerText é que: o innerHTML te permite inserir tags e o navegador consegue interpretar isso, enquanto o innerText, você só consegue alterar o texto de um elemento
+
+
+Temos métodos e propriedades que interagem com arrays, string, number
+
+let boxes = document.querySelectorAll('.box')
+
+
+boxes.forEach(function(box, index){
+  box.innerHTML = `box - ${index + 1}`
+  box.style.width = '400px'
+  box.style.height = '400px'
+  box.style.backgroundColor = '#ededed'
+  box.style.textAlign = 'center'
+  box.style.lineHeight = '400px'
+})
+
+
+Nesse exemplo eu estou estilizando cada box via JavaScript.
+
+Como box é uma div, ela pode receber estilização de forma inline, então é basicamente isso que estou fazendo nesse exemplo.
+
+Óbio que isso não é o ideal, mas é para mostrar que cada elemento possui métodos e propriedades que podem interagir com ele

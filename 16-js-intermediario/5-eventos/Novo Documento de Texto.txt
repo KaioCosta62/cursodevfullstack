@@ -1,0 +1,38 @@
+Temos algumas formas de disparar eventos na nossa página
+
+1 - Adicionando o evento via html (onchange, onclick, onscroll, etc)
+2 - Adicionando o evento via js  (onchange, onclick, onscroll, etc)
+3 - Usando o addEventListener (É o mais recomendo)
+
+Temos varios tipos de eventos: clique, passar o mouse, apertar uma tecla, seleção, dentre outros
+
+
+Com o addEventListener conseguimos anexar vários eventos a um elemento
+
+btn.addEventListener('click', function(){
+  console.log('Olá')
+})
+
+O addEventListener possui 2 parâmetros: 1 é o tipo de evento que vai ser adicionado ao elemento e o segundo é a função callback que vai executar o código quando o evento for disparado, nesse caso, quando clicar no elemento button
+
+
+
+function cliqueBotao(){
+  console.log('Mensagem 1')
+}
+
+
+btn.addEventListener('click', cliqueBotao)
+
+
+No exemplo acima, tenho basicamente a mesma coisa, o que mudou, é que, eu criei a funcao que vai ser executada quando o evento de clique for disparado, fora. Isso facilita na organização do código, note que não podemos executar a funcao logo de cara, ela só vai ser disparada quando o evento ocorrer
+
+
+removeEventListener remove o evento
+
+function cliqueBotao(){
+  console.log('Mensagem 1')
+  btn.removeEventListener('click', cliqueBotao)
+}
+
+Logo apos imprimir no console 'Mensagem 1' eu removi o evento de clique do btn que é executado pela funcao cliqueBotao

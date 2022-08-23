@@ -1,0 +1,24 @@
+A validação de formulários é extremamente recorrente e importante no dia a dia de um desenvolvedor
+
+Quando temos um botão do tipo submit, quer dizer que o formulário vai ser enviado automaticamente quando o usuário clicar no botão, o próprio navegador vai processar o envio do formulário, enviando pra um determinado local atribuido no action
+
+
+A função preventDefault() previne o comportamento padrão de um elemento
+
+Por exemplo, quando clicamos em um botão com type submit, ele irá enviar os dados imediatamente, e não é isso que queremos. Queremos primeiro validar os campos, para ai sim, enviar o formulário. Com isso previnimos esse comportamento padrão de enviar automaticamente os dados.
+
+Dentro do document, temos a propriedade forms que exibe todos os formulários existentes na nossa página
+
+console.log(document.forms['formCadastro'])
+
+Nesse exemplo, eu quero imprimir no console apenas meu formulário com id formCadastro
+
+console.log(document.forms['formCadastro']['nome'])
+
+Nesse exemplo, eu quero imprimir no console apenas meu elemento com name = nome que esteja dentro de um formulario com id formCadastro
+
+A função submit() envia o formulário
+
+Normalmente em validações de formulário, utilizamos algumas bibliotecas que já trazem prontos as validações, pois são muitos tipos de validações possíveis como: verificar se um e-mail é válido, verificar se um CPF tem a quantidade certa de dígitos, etc.
+
+O sinal ! inverte o valor trazido na expressão, por exemplo !true = false; !false = true

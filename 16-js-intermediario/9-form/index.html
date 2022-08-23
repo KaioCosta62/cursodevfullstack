@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    div{
+      margin: 30px 0;
+    }
+    
+    .inputError{
+      border: 1px solid red;
+    }
+
+    .erro{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="gravarDados.html" id="formCadastro" >
+    <div>
+      <label>
+        Nome
+        <input type="text" name="nome" id="">
+        <span class="erro"></span>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Email
+        <input type="email" name="email" id="">
+        <span class="erro"></span>
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Cidade
+        <select name="cidade" id="">
+          <option value="">-- Selecione -- </option>
+          <option value="São Paulo">São Paulo</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Belo Horizonte">Belo Horizonte</option>
+          <option value="Salvador">Salvador</option>
+          <option value="Porto Alegre">Porto Alegre</option>
+        </select>
+        <span class="erro"></span>
+      </label>
+    </div>
+    <button type="submit">Cadastrar</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
