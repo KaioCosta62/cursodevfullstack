@@ -1,0 +1,3 @@
+code . abre esse diretório no vscode
+
+code index.html abre esse arquivo no vscode

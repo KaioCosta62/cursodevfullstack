@@ -1,0 +1,9 @@
+Ambos os sistemas (windows, mac, linux) possuem um terminal e uma interface gráfica
+
+O terminal é um local onde escrevemos comandos pra dar instruções para o computador
+
+Ambos sistemas possuem um emulador de terminal, que é uma janelinha que emula o terminal no sistema operacional
+
+O emulador de terminal executa o shell, que é um conjunto de comandos que escrevemos pra passar uma instrução para o computador
+
+Praticamente todos os sistemas web utilizam linux por base, logo é interessante que saibamos os comandos de linux pra utilizar no dia-a-dia, pra isso podemos utilizar o git bash que simula os comandos de linux em outro sistema operacional

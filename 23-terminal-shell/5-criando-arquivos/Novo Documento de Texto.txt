@@ -1,0 +1,13 @@
+touch nomeDoArquivo.extensao - Cria um nvoo arquivo
+
+nano nomeDoArquivo.extensao acessamos o editor nano e podemos alterar o arquivo
+
+nano index.html
+
+mv nomeDoArquivo novoDiretório - Esse comando move o arquivo de um diretório para outro
+
+rm nomeDoArquivo - Esse comando exclui um arquivo
+
+Caso um diretório esteja com arquivos, o comando rmdir nao vai funcionar. Para apagar utilizamos o rm -rf nomeDoDiretorio
+
+Devemos tomar cuidado com esse comando, pois se nao especificar o diretorio, ele irá apagar todos os arquivos do sistema e irá corromper o windows

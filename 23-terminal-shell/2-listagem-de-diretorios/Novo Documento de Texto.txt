@@ -1,0 +1,25 @@
+A pasta home é a pasta do usuário do computador
+
+pwd - Diz qual é o diretório que estamos
+
+ls - Lista tudo que temos dentro do diretório que estamos
+
+clear / ctrl + L - limpa a tela
+
+Alguns comandos podem receber parâmetros, como é o caso do ls
+
+ls -l trás mais informações sobre os arquivos e pastas
+
+ls -l -h
+
+ls -R trás a listagem de modo recursivo e vai listar os conteúdos também
+
+ls -a trás os arquivos de configuração, que são arquivos ocultos para usuários comuns
+
+Podemos juntas os parâmetros. Ex: ls -la, nesse caso vai trazer todos os arquivos ocultos, que estão dentro dos arquivos do diretório
+
+ctrl + c interrompe o comando que está sendo utilizado
+
+Apertar seta pra cima, lista os últimos comandos que utilizamos
+
+Podemos listar os arquivos dentro de uma terminada pasta. Exemplo: ls Downloads

@@ -1,0 +1,2 @@
+mkdir nomeDoDiretorio cria um novo diretorio
+rmdir nomeDoDiretorio remove um diretório

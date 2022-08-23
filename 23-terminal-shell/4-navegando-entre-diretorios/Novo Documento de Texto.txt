@@ -1,0 +1,9 @@
+pra entrar numa pasta, utilizamos o cd
+
+Exemplo:  cd Documents
+
+./ - Atual diretório
+../ - Diretório anterior
+
+cd ~ Retorna pra home
+
