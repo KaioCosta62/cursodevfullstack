@@ -1,0 +1,25 @@
+A propriedade transform nos permite fazer transformações em 2d e 3d
+
+Translate - Move um elemento de sua posição inicial, pode receber 2 valores, onde o 1 é o eixo X e o segundo o eixo Y.
+
+TranslateX - Move um elemento na horizontal
+
+TranslateY - Move um elemento na vertical
+
+Rotate - Recebe um valor em deg(graus), para rotacionar um elemento
+
+RotateX- Rotaciona o elemento na horizontal
+
+RotateX - Rotaciona o elemento na vertical
+
+Scale - Ele altera as dimensões do meu elemento (width e height), exemplo: Se nosso elemento tem 200px de largura, se colocar scale na horizontal de 2, ele passa a ter 400px de largura.
+
+ScaleX - Altera as dimensões da largura
+
+ScaleY - Altera as dimensões da altura
+
+Skew - Recebe um valor em graus e 'torce' meu elemento
+
+SkewX - 'Torce' meu elemento no eixo da horizontal
+
+SkewY - 'Torce' meu elemento no eixo da vertical

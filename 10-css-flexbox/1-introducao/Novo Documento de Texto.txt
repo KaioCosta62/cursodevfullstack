@@ -1,0 +1,1 @@
+Flexbox nos auxilia no posicionamento dos elementos na tela. Nos permite construir caixas que se adaptam a diferentes tamanhos da tela e espaços disponíveis

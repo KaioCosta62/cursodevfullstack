@@ -1,0 +1,3 @@
+O input do tipo radio, é usado quando temos um conjunto de opções onde só poderá ter 1 item selecionado, logo todos os inputs radio correspondentes, devem ter o mesmo name, para que seja possível apenas 1 seleção, devemos definir o valor de cada radio através do atributo value
+
+O input do tipo checkbox, é usado quando mais de uma opção possa ser selecionada, nesse caso todos os checkbox relacionados ao mesmo assunto, tem o mesmo name, mas com valores diferentes, setados no atributo value

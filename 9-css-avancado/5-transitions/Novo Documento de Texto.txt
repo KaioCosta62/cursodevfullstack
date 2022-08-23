@@ -1,0 +1,13 @@
+Transition Duration - Recebe o valor da duração da transição
+
+Transition Property - Recebe o valor da propriedade da transição, o valor padrão é all e é o mais utilizado, porem podemos escolher as propriedades em que o transition vai atuar
+
+Transition-timing-function - Recebe o valor da função de tempo da transição, possui três valores: ease(padrão) - Mantem a velocidade da transição de forma linear
+ease-in - Começa de forma linear e acelera no final
+ease-out - Começa de forma rápida e termina de forma mais suave
+ease-in-out - É a junção do ease-in e do ease-out
+
+Transition-delay - Recebe o valor de quanto tempo a transição vai demorar pra iniciar
+
+Transition - É a propriedade shorthand, onde podemos colocar todos os valores
+A propriedade transition recebe em ordem: property, duration, timing-function, delay

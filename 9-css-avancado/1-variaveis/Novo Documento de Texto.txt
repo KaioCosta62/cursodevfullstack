@@ -1,0 +1,15 @@
+Usamos variáveis, quando ao longo do nosso site, temos repetições de estilo, como: cor, tamanho de fonte, espaçamentos, etc.
+
+As variáveis ficam dentro da pseudo-classe :root
+
+A nomeação de variável pode ser feita de formas variadas, pórem, sempre começam com --
+
+Exemplo - :root{
+  --color-primaray: #0085ff;
+  --color-secondary: darkblue;
+  --spacing: 20px;
+}
+
+Para inserir o valor de uma variável em um elemento, basta digitar var(--nome-da-variavel)
+
+Caso algum dia o valor dessa variável venha a ser alterado, mudamos apenas no :root, logo todos os elementos que tenham essa variável em seu estilo, será alterado automaticamente

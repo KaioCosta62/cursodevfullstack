@@ -1,0 +1,11 @@
+Os elementos filhos também possui propriedades flex
+
+Order - Altera a ordem dos elementos, por padrão todos os elementos tem order 0, com isso a ordem dos elementos é feita através do html, o order aceita valores negativos
+
+
+Align-Self - Podemos alinhar algum elemento de uma forma diferente dos outros elementos, pra isso usamos o align-self
+
+O align-self recebe os valores de center, flex-end e flex-start
+
+
+Flex-grow - Propriedade que define o quanto uma propriedade vai crescer

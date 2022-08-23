@@ -1,0 +1,36 @@
+img{
+  width: 400px;
+  /*filter: blur(5px);*/
+  /*filter: brightness(50%);*/
+  /*filter: contrast(50%);*/
+  /*filter: drop-shadow(0 0px 50px red);*/
+  /*filter: grayscale(100%);*/
+  /*filter: hue-rotate(0deg);*/
+  /*filter: invert(100%);*/
+  /*filter: opacity(50%);*/
+  /*filter: saturate(50%);*/
+  filter: sepia(100%);
+
+}
+
+button{
+  display: block;
+}
+
+button:hover + .box{
+  filter: blur(5px);
+}
+
+/*
+.box{
+  filter: blur(5px);
+}
+*/
+
+.box h1{
+  filter: opacity(0);
+}
+
+.box h2{
+  filter: blur(3px);
+}

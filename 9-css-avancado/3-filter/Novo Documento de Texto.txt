@@ -1,0 +1,8 @@
+A propriedade filter permite adicionar alguns filtros de estilo em nossos elementos
+
+Blur - Permite borrar algum conteúdo (px)
+Brightness - Permite alterar o brilho  (%)
+Contrast - Permite alterar o contraste  (%)
+Grayscale - Permite deixar uma imagem em  preto e branco (%)
+Opacity - Permite alterar a opacidade  (%)
+Saturate - Permite alterar a saturação  (%)

@@ -1,0 +1,18 @@
+
+​Faça uma página que ao entrar vai pedir o nome do usuário e depois a idade, em seguida mostre na tela uma mensagem de saudação de acordo com a idade do usuário:  
+
+
+1- receber o nome
+1.2 - armazenar o valor em uma variável
+2 - receber a idade
+2.1 - armazenar o valor em uma variável
+2.2 - Verificar se a idade inserida não é negativa (-1 por ex)
+2.3 - Caso a idade inserida for negativa, inserir um alerta de erro e pedir pro usuário digitar novamente
+3 - se idade >= 18
+3.1 - Exibir na tela mensagem de saudação e falar que é maior de idade
+4 - se idade < 18
+4.1 - Exibir na tela mensagem de saudação e falar que é menor de idade
+
+
+
+Nesse exercicío eu vou trabalhar basicamente entrada de dados e estruturas condicionais
