@@ -1,0 +1,32 @@
+Exercício semelhante ao primeiro, a diferença é que, ao clicar no botão de incremento, vou utilizar o setInterval pra incrementar +1 na variável de controle e decrementar -1 quando clicar no botão de -
+
+
+Estrutura html
+
+1- Elemento para exibir um valor
+2 - Botão de incremento
+3 - Botão de decremento
+
+
+Estrutura js
+
+1- Criar a variável de controle que vai ser responsável por trabalhar no setInterval e mostrar os valores na tela
+
+2 - Selecionar os botões e o box onde vai mostrar os valores na tela
+
+3 - Criar a variável que vai receber o setInterval
+
+4 - Criar a função de incrementar
+4.1 - Limpar o intervalo antes de mais nada
+4.2 - Remover a classe do botão de decrementar
+4.3 - Adicionar a classe do botão de incrementar
+4.4 - Setar o setInterval na variável intervalCount e a cada 100ms, incrementar +1 na variável count e exibir na tela
+
+5 - Criar a função de decrementar
+5.1 - Limpar o intervalo antes de mais nada
+5.2 - Remover a classe do botão de incrementar
+5.3 - Adicionar a classe no botão de decrementar
+5.4 - Setar o setInterval na variável intervalCount e a cada 100ms, decrementar -1 na variável count e exibir na tela
+
+6 - Executar as respectivas funções sempre que houver evento de click nos botões de incrementar ou decrementar
+

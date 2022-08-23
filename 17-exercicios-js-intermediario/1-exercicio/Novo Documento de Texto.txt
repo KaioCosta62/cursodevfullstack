@@ -1,0 +1,14 @@
+Exercicio é ter dois botões, o primeiro incrementa um valor na tela e o segundo decrementa
+
+Estrutura html
+
+1- Elemento para exibir um valor
+2 - Botão de incremento
+3 - Botão de decremento
+
+
+Estrutura JS
+
+1- Criar uma variável de controle pra receber o valor, ela começa com o valor 0
+2 - Criar uma função que toda vez que o botão receber um evento de clique, vai incrementar +1 na variável de controle e exibir na tela
+3 - Criar uma função que toda vez que o botão receber um evento de clique, vai decrementar -1 na variável de controle e exibir na tela

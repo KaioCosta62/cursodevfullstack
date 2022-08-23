@@ -1,0 +1,16 @@
+#selecionarCidade{
+  display: none;
+}
+
+label{
+  display: block;
+  margin-bottom: 30px;
+}
+
+.selectError{
+  border: 2px solid red;
+}
+
+.spanError{
+  color: red;
+}
