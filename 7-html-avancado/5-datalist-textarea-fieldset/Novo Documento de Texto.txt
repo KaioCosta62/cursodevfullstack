@@ -1,0 +1,5 @@
+Com o datalist conseguimos criar uma list, semelhante ao select, só que, passando um id para o datalist e linkando em um campo de input através do atributo list, conseguimos criar um campo de busca que possui um auto-complete
+
+O textarea é um campo muito utilizado em sites, onde normalmente ele tem a finalidade de ser um campo de mensagem, onde o usuário informa problemas, feedbacks, etc. O textarea é o campo ideal para entrada de dados mais extensa
+
+Fieldset envolve todos os campos do nosso formulário, tem uma finalidade mais estética, onde por exemplo, se queremos separar os elementos do nosso formulário, podemos envolver eles em vários fieldsets, por exemplo: Dados de login, dados de pagamento, etc, o fieldset possui um elemento filho direto, chamado legend, onde podemos colocar uma legenda do que representa aquela parte do formulário

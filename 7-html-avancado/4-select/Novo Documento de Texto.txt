@@ -1,0 +1,7 @@
+O select é uma caixa de seleção, que carrega dentro de si, um conjunto de options
+
+O campo select tem que ter um name definido
+
+Cada opção do select tem que ter um value definido
+
+O campo select possui a tag optgroup, onde conseguimos organizar nossas opções por categoria através do atributo label. Ex: Temos uma lista de capitais, podemos organizar nossa seleção através da posição geográfica: Sudeste, centro-oeste, sul, etc.

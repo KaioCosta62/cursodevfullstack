@@ -1,0 +1,5 @@
+Utilizamos a label antes de um campo input, ela vai informar do que se trata o campo, se é pra nome, telefone, email, etc
+
+O atributo for do campo label serve para 'link' a label ao campo input correspondente, basta que o valor do for e o id do campo input sejam iguais, logo, quando o usuário clicar na label, o campo input será selecionado pelo cursor
+
+O campo input possui um atributo chamado name, onde colocamos o nome do campo de input, para que depois, no backend, iremos conseguir puxar os dados enviados a cada campo de input

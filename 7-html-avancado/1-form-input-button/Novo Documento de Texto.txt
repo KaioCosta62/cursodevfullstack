@@ -1,0 +1,11 @@
+A tag <form></form> serve para encapsular os elementos do formulario
+
+O atributo action da tag form serve para direcionar os dados do formulário pra algum lugar, como um servidor
+
+O atributo type da tag form serve para dizer qual o tipo do formulário, se é get ou post. O método get envia os dados na URL do navegador. O método post é enviado de forma 'escondida', é um método mais ideal de enviar dados sensíveis.
+
+A tag input é para entrada de dados, ela possui o atributo type que recebe o tipo de dado que o input vai receber, como text, number, password, tel, email, etc
+
+O atributo placeholder permite que nosso campo receba um texto enquanto o usuário não entrar com nenhum dado
+
+A tag button é para enviar os dados
