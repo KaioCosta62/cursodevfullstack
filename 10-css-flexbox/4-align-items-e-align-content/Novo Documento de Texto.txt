@@ -1,0 +1,11 @@
+Para alinhar na vertical, usamos o align-items, ele só funciona quando o flex-direction estiver como row
+
+align-items: flex-start - É o valor padrão da propriedade
+
+align-items: center - Alinha os itens verticalmente ao centro do container
+
+align-items: flex-end - Alina os itens ao final do container
+
+
+
+Align-content - Recebe as mesmas propriedades que o align-items, pórem o align content faz o alinhamento na vertical
