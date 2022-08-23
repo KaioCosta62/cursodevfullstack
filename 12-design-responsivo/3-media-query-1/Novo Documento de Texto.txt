@@ -1,7 +1,0 @@
-Usamos as medias querys para fazer alterações em nosso site baseado em diferentes larguras de telas
-
-@media (max-width: 400px) - Toda regra css que eu colocar, só será aplicada quando a tela for menor ou igual a 400px
-
-@media (min-width: 400px) - Toda regra css que eu colocar, só será aplicada quando a tela for maior ou igual a 400px
-
-@media (min-width: 400px) and (max-width: 600px) - Toda regra css que eu colocar, só será aplicada quando a tela for maior ou igual a 400px e menor ou igual a 600px

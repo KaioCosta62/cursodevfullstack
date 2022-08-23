@@ -1,3 +1,0 @@
-O viewport é a area visível do site
-
-A meta tag viewport vai adaptar o site conforme o viewport do dispositivo
