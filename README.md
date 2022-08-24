@@ -88,10 +88,10 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Código síncrono
 - Código assíncrono
 - AJAX
-- Call Backs
+- Call Back
 - Promise
 - Fetch
-- Async e Awaits
+- Async e Await
 - Desestructuring Assignment
 
 ## Aprendizados de Terminal Shell até o momento
