@@ -101,3 +101,12 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Navegando entre diretórios
 - Criando e apagando arquivos
 
+## Aprendizados de Git até o momento
+
+- Entendendo o que é repositório local e repositório remoto
+- Adicionando chave SSH
+- Adicionando git em um projeto já existente
+- Clonando repositórios
+- Git Pull
+- Branch
+- Git Ignore
