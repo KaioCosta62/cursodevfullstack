@@ -1,0 +1,3 @@
+Git é um sistema de controle de versão
+
+Um sistema de controle de versão registra as alterações feitas no nosso código em um local que chama repositório

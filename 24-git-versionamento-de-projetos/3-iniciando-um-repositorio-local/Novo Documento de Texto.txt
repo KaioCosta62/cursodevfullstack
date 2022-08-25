@@ -1,0 +1,13 @@
+Para fazer com que nosso repositorio local seja um repositorio git, devemos iniciar o git nele, com o comando git init
+
+Caso não queremos mais que nosso repositório local seja um repositório git, basta rodar o comando rm -rf .git, que vai excluir a pasta com os arquivos do git
+
+git status - trás os status do repositório
+
+commitar é o ato de fechar um pacote, dar um nome a ele e subir pro repositório
+
+git add index.html, eu estou adicionando o arquivo index.html no meu stage do git
+
+Depois de adicionar os arquivos no stage do git, eles podem ser commitados, com o comando: git commit -m "mensagem de commit"
+
+Após isso, podemos adicionar os arquivos commitados, no repositório remoto

@@ -1,0 +1,1 @@
+Basta dar um git init no repositório local, criar um repositório remoto, linkar esses 2 repositórios com o git remote, commitar e enviar com o git push origin master

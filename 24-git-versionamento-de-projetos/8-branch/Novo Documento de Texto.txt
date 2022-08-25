@@ -1,0 +1,17 @@
+A branch master é a branch principal do nosso projeto
+
+git branch - lista as branchs criadas no ambiente local
+
+git checkout -b nomeDaBranch - Cria uma nova branch a partir da master
+
+git checkout nomeDaBranch - Troca de branch
+
+Quando trocamos de branch, os conteúdos que foram adicionados em outra branch não irá aparecer nessa branch atual que estamos, para aparecer, precisamos mesclar o conteúdo das duas branch's
+
+O git consegue através das branchs, modificar arquivos, conteúdos do projeto
+
+git merge nomeDaBranch faz a mesclagem de uma branch com a branch master
+
+Para excluir uma branch do repositório local usamos o comando git branch -D nomeDaBranch
+
+Para excluir a branch do repositório remoto, temos que fazer de forma manual

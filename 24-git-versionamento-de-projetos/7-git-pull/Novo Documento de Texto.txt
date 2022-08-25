@@ -1,0 +1,5 @@
+git pull atualiza o repositório local
+
+Esse comando é mt util quando estamos trabalhando em um projeto com uma ou mais pessoas, onde as pessoas mandam as atualizações pro repositório remoto e nos temos que ter elas no repositório local também
+
+A premisa é sempre dar um git pull antes de dar um git push

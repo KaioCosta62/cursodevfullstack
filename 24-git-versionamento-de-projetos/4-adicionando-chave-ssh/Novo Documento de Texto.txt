@@ -1,0 +1,5 @@
+git log - Mostra todos os commits do repositório
+
+Para adicionar os commits ao repositório, utilizamos o comando: git push origin(branch) master
+
+Para autorizar nosso computador a commitar no repositório, devemos fazer uma configuração de SSH

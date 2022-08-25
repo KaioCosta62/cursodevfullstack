@@ -1,0 +1,7 @@
+Para clonar um repositório, usamos o comando git clone e o endereço do repositório
+
+git diff mostra as alterações nos arquivos
+
+git add . adiciona todas as modificações do diretório atual
+
+Por boa prática é recomendado sempre usar letras minúsculas e sem acentuação nos commit's

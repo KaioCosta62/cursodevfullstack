@@ -1,0 +1,9 @@
+Repositório remoto é quando está hospedado em um servidor
+
+Repositório local é uma copia do repositório em nossa máquina
+
+Git e github são coisas separadas
+
+Git é um sistema de versionamento de código
+
+github é uma empresa que fornece um serviço de git gratuitamente, onde podemos criar repositórios remotos pra armazenar os projetos

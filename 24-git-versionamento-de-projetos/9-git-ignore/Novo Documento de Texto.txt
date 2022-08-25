@@ -1,0 +1,8 @@
+gitignore é uma configuração que fazemos no ambiente de desenvolvimento para que determinados arquivos não suba para o github
+
+Basta criar um arquivo .gitignore na nossa pasta de desenvolvimento e adicionar arquivos,pastas, que não queremos subir
+
+Cada nome de arquivo, de pasta, deve ser feito linha a linha
+
+node_modules
+arquivo_teste.txt
