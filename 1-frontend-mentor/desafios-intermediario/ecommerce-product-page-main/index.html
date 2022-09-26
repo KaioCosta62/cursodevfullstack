@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo-menu">
+        <i class="fa-solid fa-bars menu-hamburguer"></i>
+        <img class="logo" src="images/logo.svg" alt="Logo">
+        <nav class="menu">
+          <ul>
+            <img src="images/icon-close.svg" alt="" class="icon-close">
+            <li>
+              <a href="#">Collections</a>
+            </li>
+            <li>
+              <a href="#">Men</a>
+            </li>
+            <li>
+              <a href="#">Women</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="profile-shopping">
+        <div>
+          <img class="cart" src="images/icon-cart.svg" alt="Icon Cart">
+          <div class="cart-itens">0</div>
+
+          <div class="view-itens">
+            <h3>Cart</h3>
+            <p class = "empty-cart">You cart is empty</p>    
+          </div>
+        </div>
+
+        <div>
+          <img class="avatar" src="images/image-avatar.png" alt="Icon Avatar">
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="product-showcase">
+    <div class="container">
+      <img class="main-image" src="images/image-product-1.jpg" alt="">
+      <div class="product-description">
+        <h3>Sneaker Company</h3>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+        <div class="price-discount">
+          <span class="price">$125.00</span>
+          <span class="discount">50%</span>
+        </div>
+        <span>$250.00</span>
+
+        <div class="amount-add-card">
+          <div class="amount">
+            <img src="images/icon-plus.svg" alt="" class="plus">
+            <span>1</span>
+            <img src="images/icon-minus.svg" alt="" class="minus">
+          </div>
+          <button class="add-cart">
+            <img src="images/icon-cart.svg" alt="">
+            Add to cart
+          </button>
+        </div>
+      </div>
+
+      <div class="images-thumbnail">
+        <img src="images/image-product-1-thumbnail.jpg" />
+        <img src="images/image-product-2-thumbnail.jpg" />
+        <img src="images/image-product-3-thumbnail.jpg" />
+        <img src="images/image-product-4-thumbnail.jpg" />
+      </div>
+
+    </div>
+  </main>
+
+  <div class="modal">
+    <div class="container">
+      <img class="icon-close icon-close-modal" src="images/icon-close.svg" alt="Icon Close">
+      <div class="image-primary">
+        <img src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="images-thumbnail">
+        <img src="images/image-product-1-thumbnail.jpg" />
+        <img src="images/image-product-2-thumbnail.jpg" />
+        <img src="images/image-product-3-thumbnail.jpg" />
+        <img src="images/image-product-4-thumbnail.jpg" />
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://kit.fontawesome.com/b0d02c4c92.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
+
