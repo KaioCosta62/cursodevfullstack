@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+:root {
+  --color-primary: #888;
+  --color-secondary: #707070;
+  --color-white: #fff;
+}
+
+/* Estilos gerais */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  display: block;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+}
+
+button {
+  border-radius: 8px;
+}
+
+/* HEADER */
+.header {
+  height: 350px;
+  text-align: center;
+  color: var(--color-white);
+}
+.header .container {
+  max-width: 980px;
+}
+.header .bg {
+  width: 100%;
+  height: 350px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 71%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 71%);
+  background-color: var(--color-secondary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.header span {
+  font-size: 1.25em;
+  margin-top: 30px;
+}
+.header h1 {
+  font-size: 2.5em;
+  margin-bottom: 25px;
+}
+.header p {
+  font-size: 0.875em;
+}
+.header .nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 40px;
+}
+.header .nav ul li {
+  flex: 1 0 160px;
+  height: 40px;
+  line-height: 40px;
+  background-color: var(--color-white);
+  border-radius: 4px;
+  box-shadow: 2px 1px 6px #ccc;
+}
+.header .nav ul li:hover {
+  background-color: var(--color-secondary);
+}
+.header .nav ul li:hover a {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1em;
+}
+.header .nav ul a {
+  font-size: 0.875em;
+  color: var(--color-primary);
+  transition: all 300ms ease-in;
+}
+
+/* Section registration */
+.registration {
+  padding: 40px 0;
+}
+.registration .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, auto));
+  gap: 60px;
+}
+.registration div h2 {
+  font-size: 1.25em;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-bottom: 30px;
+}
+.registration div p {
+  font-size: 0.75em;
+  color: var(--color-primary);
+  line-height: 1.6;
+}
+.registration div p + p {
+  margin-top: 30px;
+}
+.registration .registration-user {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration .registration-user label {
+  font-size: 0.75em;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 10px;
+}
+.registration .registration-user input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid var(--color-secondary);
+  padding-left: 10px;
+  outline: 0;
+  border-radius: 8px;
+}
+.registration .registration-user input.error-input {
+  border: 1px solid #ff0000;
+}
+.registration .registration-user .check-sex {
+  display: flex;
+  gap: 40px;
+}
+.registration .registration-user .check-sex div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.registration .registration-user .check-sex div label {
+  margin-top: 10px;
+}
+.registration .registration-user .check-sex input {
+  width: 15px;
+}
+.registration .registration-user button {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-secondary);
+  height: 30px;
+  font-size: 1em;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+.registration .registration-user button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+.registration .registration-user .error,
+.registration .registration-user .error-check {
+  color: red;
+  font-size: 0.8em;
+}
+
+/* Section products */
+.main {
+  padding: 40px 0;
+}
+.main .products h2 {
+  text-align: center;
+  font-size: 1.125em;
+  color: var(--color-primary);
+}
+.main .products .products-wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 40px;
+}
+.main .products .products-wrapper .image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.main .products .products-wrapper h3 {
+  font-size: 0.875em;
+  color: var(--color-primary);
+  margin: 14px 0 10px 0;
+}
+.main .products .products-wrapper p {
+  font-size: 0.75em;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+.main .products .products-wrapper .in {
+  font-size: 0.75em;
+  color: var(--color-primary);
+}
+.main .products .products-wrapper .per {
+  font-weight: bold;
+  font-size: 1em;
+  color: var(--color-primary);
+  margin: 10px 0;
+}
+.main .products .products-wrapper .split-price {
+  font-size: 0.75em;
+  color: var(--color-primary);
+}
+.main .products .products-wrapper button {
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: var(--color-white);
+  font-size: 1em;
+  border: 1px solid var(--color-secondary);
+  outline: 0;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+.main .products .products-wrapper button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+  font-size: 1.3em;
+}
+.main .products .products-wrapper .spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-top: 5px solid var(--color-primary);
+  margin: 0 auto;
+  -webkit-animation: spinner 1s infinite linear;
+          animation: spinner 1s infinite linear;
+}
+.main .products .products-wrapper .spinner-more {
+  display: none;
+}
+.main .products .more-products {
+  display: block;
+  margin: 50px auto 0 auto;
+  height: 40px;
+  width: 260px;
+  font-size: 1.125em;
+  border: 1px solid var(--color-secondary);
+  color: var(--color-secondary);
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+/* Section newsletter */
+.newsletter {
+  padding: 40px 0;
+  text-align: center;
+}
+.newsletter h2 {
+  font-size: 1.125em;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+.newsletter p {
+  font-size: 0.875em;
+  color: var(--color-primary);
+}
+.newsletter .newsletter-form {
+  display: grid;
+  grid-template-columns: repeat(2, 340px);
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.newsletter .newsletter-form label {
+  display: block;
+  font-size: 0.75em;
+  color: var(--color-primary);
+  text-align: left;
+  margin-bottom: 10px;
+}
+.newsletter .newsletter-form input {
+  width: 100%;
+  height: 30px;
+  outline: 0;
+  padding-left: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
+}
+.newsletter .newsletter-form input.error-input {
+  border: 1px solid #ff0000;
+}
+.newsletter .newsletter-form .button-newsleeter {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+.newsletter .newsletter-form button {
+  width: 260px;
+  height: 40px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  font-size: 1.125em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.newsletter .newsletter-form .error {
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  padding: 40px 0;
+  background-color: var(--color-secondary);
+  -webkit-clip-path: polygon(0 29%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 29%, 100% 0, 100% 100%, 0 100%);
+  color: var(--color-white);
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.75em;
+  margin-top: 40px;
+}
+
+.scroll {
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  z-index: 1;
+  display: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  -webkit-animation: scrollTop 400ms ease-in infinite alternate;
+          animation: scrollTop 400ms ease-in infinite alternate;
+}
+
+@-webkit-keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes scrollTop {
+  from {
+    font-size: 1.5em;
+  }
+  to {
+    font-size: 2em;
+  }
+}
+@keyframes scrollTop {
+  from {
+    font-size: 1.5em;
+  }
+  to {
+    font-size: 2em;
+  }
+}
+@media (max-width: 720px) {
+  .newsletter .newsletter-form {
+    grid-template-columns: 1fr;
+  }
+  .newsletter .newsletter-form input {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .main .products .products-wrapper h3 {
+    margin: 0;
+  }
+  .main .products .products-wrapper p {
+    display: none;
+  }
+  .main .products .products-wrapper .in {
+    margin: 14px 0 6px 0;
+  }
+  .main .products .products-wrapper .image {
+    max-width: 100%;
+  }
+  .main .product-single {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

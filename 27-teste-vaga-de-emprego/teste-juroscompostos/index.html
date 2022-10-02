@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Teste Juros Compostos</title>
+</head>
+<body>
+  <section class="simulator container first-page">
+      <h3>Money Investiments</h3>
+      <form action="" id="simulator" class="form-simulator">
+        <h4>Simulator</h4>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="name" placeholder="Insira seu nome">
+          <span></span>
+        </div>
+        <div>
+          <label for="mensalidade">Mensalidade</label>
+          <input type="text" name="mensality" id="mensality" placeholder= "Exemplo: 20,50" onkeypress="onlyNumber()">
+          <span></span>
+        </div>
+        <div>
+          <label for="rate">Taxa de juros (%)</label>
+          <input type="text" name="rate" id="rate" placeholder="Exemplo: 0,517" onkeypress=" onlyNumber()">
+          <span></span>
+        </div>
+        <div>
+          <label for="tempo">Tempo de investimento</label>
+          <select name="timeYears" id="tempo" class="timeYears">
+            <!--code made via javascript-->
+          </select>
+          <span></span>
+        </div>
+        <button type="submit">Simular</button>
+      </form>
+  </section>
+
+  <div class="spinner">
+    
+  </div>
+  <section class="simulator container second-page ">
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>
