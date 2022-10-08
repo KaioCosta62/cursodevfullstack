@@ -110,3 +110,11 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Git Pull
 - Branch
 - Git Ignore
+
+# Aprendizados de NodeJs até o momento
+
+- NPM
+- Package Json
+- Módulos
+- Como criar um servidor com NodeJS Puro
+- File System
