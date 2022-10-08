@@ -1,0 +1,11 @@
+Vou inserir no meu json, uma propriedade chamada Start, cada objeto vai ter um número relacionado, logo, vou exibir a quantidade de estrelar em cada post  de acordo com o número dado a propriedade Start
+
+Farei uma condicional de: Se houver essa propriedade no objeto em questão, vou exibir a quantidade de estrelas de acordo com o número passado, caso não houver a propriedade star, não farei nada
+
+<% if(post.stars){ %>
+               <% for( let i = 0; i < post.stars; i++ ) {  %>
+                  <img src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" width="20">
+               <% } %>
+            <% } %>
+
+Primeiro eu verifico se o item em questão possui a propriedade stars, se possui, eu faço um for e exibo a quantidade de estrelas de acordo com o valor passado na propriedade stars no JSON

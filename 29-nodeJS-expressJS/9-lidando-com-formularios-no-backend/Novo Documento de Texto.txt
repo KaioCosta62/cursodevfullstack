@@ -1,0 +1,94 @@
+Primeiramente vou criar uma rota pra cadastrar meus posts e criar o arquivo cadastrar-posts.ejs
+
+Criei a página que vai conter um formulário para cadastrar novos posts
+
+Vou enviar os dados do formulário para uma rota
+
+form action="/salvar-posts"
+
+Defini o método do formulario para post: method="post"
+
+Usamos o get para obter informações enquanto a post é para enviar informações
+
+Defini a rota para receber os posts 
+
+app.post('/salvar-posts', (req, res) => {
+  console.log('Ok funcionou')
+  res.send('ok')
+})
+
+Se eu digitar no navegador /salvar-posts, não vai encontrar essa rota no servidor, pois o navegador na barra de endereço executa o método get para obter uma página, para eu ver a rota /salvar-posts eu tenho que executar uma request do método post (fazendo o formulário funcionar)
+
+Para receber os dados do formulário, precisamos configurar nosso servidor, através de um middleware
+
+app.use(express.urlencoded({extended: true}))
+
+Com a configuração feita, podemos receber os dados do formulário através da propriedade body
+
+app.post('/salvar-posts', (req, res) => {
+  console.log(req.body)
+  res.send('ok')
+})
+
+Isso nos retorna um objeto com o name do input e o value
+{ titulo: 'Teste', texto: 'testando texto 123' }
+
+Como ainda não sei banco de dados, vou salvar o arquivo em um JSON
+
+const {titulo, texto} = req.body
+
+Desestruturei as informações vinda de req.body
+
+Criei na minha estrutura de projeto uma pasta chamada store, e um arquivo chamado posts-cadastrados.json dentro dele existe apenas um array vazio [], onde ele vai receber objetos contento o titulo do post e o texto
+
+Vou importar a biblioteca FS, para abrir o arquivo de posts-cadastrados
+
+O método readFile é um código assincrono, pois ele lê um arquivo e só depois executa o callback, nesse caso, é melhor um código síncrono, para isso temos o readFileSync, ele passa a se comportar de forma síncrona, ele vai retornar o conteúdo do arquivo
+
+const data = fs.readFileSync('./store/posts-cadastrados.json')
+
+Esse data vem em formato de string, vamos converte-lo usando o JSON.parse()
+const posts = JSON.parse(data)
+
+Agora, podemos pegar os dados que desestruturamos, e adiciona-los no nosso array
+
+posts.push({
+    titulo,
+    texto
+})
+
+Agora vou transformar esses dados em strings e salvar no JSON
+const postsString = JSON.stringify(posts)
+
+fs.writeFileSync('./store/posts-cadastrados.json', postsString)
+
+Novamente usando um código sincrono, onde o file system vai pegar o arquivo posts-cadastrados.json e vai escrever nele, o conteúdo vindo da minha constante postsString, que nada mais é, que os dados vindo do formulário
+
+O próximo passo é melhorar a resposta para o usuário, quando eu cadastrar o post, ir até a rota, cadastrar o post e exibir uma mensagem de feedback para o usuário
+
+res.redirect('/cadastro-posts')
+
+Nesse caso, sempre que tiver uma request do tipo post, eu vou redirecionar o usuário pra página de cadastro-posts, o próximo passo é passar um parâmetro pela url
+
+res.redirect('/cadastro-posts?c=1')
+
+Agora vamos pegar esse dado
+
+app.get('/cadastro-posts', (req, res) => {
+  console.log(req.query)
+  res.render('cadastro-posts', {
+    title: 'Cadastrar Posts'
+  })
+})
+
+Note que eu pego esse dado na rota de get, e não na de post, usando o req.query
+
+app.get('/cadastro-posts', (req, res) => {
+  const {c} = req.query
+  res.render('cadastro-posts', {
+    title: 'Cadastrar Posts',
+    cadastrado: c
+  })
+})
+
+Eu desestruturei minha req.query e peguei o valor vindo de c e passei para a view de cadastro-posts

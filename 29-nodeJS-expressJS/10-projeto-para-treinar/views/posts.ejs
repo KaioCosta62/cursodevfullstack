@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs') %>
+</head>
+<body>
+  <%- include('partials/header.ejs') %>
+  <section class="container">
+    <%- include('partials/nav-bar.ejs') %>
+    <article class="content participantes-list">
+      <h1>Posts sobre a copa do Mundo Qatar 2022</h1>
+      <div class="posts">
+        <% posts.forEach((post) => { %>
+          <div class="post">
+            <h3><%= post.title %></h3>
+            <p><%= post.text %></p>
+
+            <% if(post.stars) { %>
+              <% for(let i = 0; i < post.stars; i++){ %>
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/arts-graphic-shapes/star-icon.png" alt="" width="20">
+              <% } %>
+            <% } %>
+          </div>
+        <% }) %>
+      </div>
+    </article>
+  </section>
+  <%- include('partials/footer.ejs') %>
+  <%- include('partials/foo.ejs') %>
+</body>
+</html>
