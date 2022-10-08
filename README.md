@@ -118,3 +118,11 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Módulos
 - Como criar um servidor com NodeJS Puro
 - File System
+- Framework Express
+- Criar Rotas com Express
+- Servindo arquivos estáticos e públicos
+- Partials
+- Passar valores para a view
+- Looping
+- Condicionais
+- Lidando com formulários
