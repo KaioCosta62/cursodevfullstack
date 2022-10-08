@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head.ejs') %>
+</head>
+<body>
+  <%- include('partials/header.ejs') %>
+  <section class="container">
+    <%- include('partials/nav-bar.ejs') %>
+    <article class="content participantes-list">
+      <h1>Posts sobre a Copa do Mundo Qatar 2022</h1>
+
+      <div class="posts">
+        <% posts.forEach((post) => { %>
+          <div class="post">
+            <h3><%= post.title %></h3>
+            <p><%= post.text %></p>
+          </div>
+        <% }) %>    
+     </div>
+
+    </article>
+  </section>
+</body>
+</html>

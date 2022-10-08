@@ -1,0 +1,42 @@
+app.get('/posts', (req, res) => {
+  res.render('posts', {
+    title: 'Posts',
+    posts: [
+      {
+        title: 'Melhores cidades para se hospedar',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, earum. Fugiat saepe, facilis ratione quae iste, tempora in, illum tenetur incidunt excepturi omnis aut veritatis rerum quisquam. Quia, perferendis in.'
+      },
+      {
+        title: 'Dicas para se hospedar de forma barata',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, earum. Fugiat saepe, facilis ratione quae iste, tempora in, illum tenetur incidunt excepturi omnis aut veritatis rerum quisquam. Quia, perferendis in.'
+      },
+      {
+        title: 'Lugares para se conhecer no Qatar',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, earum. Fugiat saepe, facilis ratione quae iste, tempora in, illum tenetur incidunt excepturi omnis aut veritatis rerum quisquam. Quia, perferendis in.'
+      },
+    ]
+  })
+})
+
+
+Na minha rota de posts, eu passei um array de objetos, onde eu simulei posts que vão ser inseridos na rota /posts, agora basta ir na página posts.ejs e fazer um looping.
+
+Na realidade com banco de dados, vai ser bem parecido, vamos chamar esses posts do bando de dados e inserir na rota /posts
+
+<% posts.forEach((post) => { %>
+
+ <%}) %>
+
+Note que a estrutua fica um pouco estranha, temos que abrir e fechar nas duas linhas
+
+<div class="posts">
+        <% posts.forEach((post) => { %>
+          <div class="post">
+            <h3><%= post.title %></h3>
+            <p><%= post.text %></p>
+          </div>
+        <% }) %>    
+     </div>
+
+Depois do forEach ter percorrido todos os itens de posts, basta inserir os valores com <%= post.propriedadeDoObjeto %>
+        

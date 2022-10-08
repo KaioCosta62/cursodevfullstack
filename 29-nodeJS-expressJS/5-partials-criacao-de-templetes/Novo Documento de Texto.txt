@@ -1,0 +1,9 @@
+Partials auxilia na criação de templetes html
+
+Em uma sistema grande, temos várias coisas que se repetem ao longo do site, com partials, podemos criar esse elemento de forma separada e importar nos arquivos, sem ter que cria-los de novo
+
+Ex: Header, footer, navbar, normalmente se repetem ao longo das páginas, então podemos cria-los 1 vez e apenas importar ele nas outras páginas, logo se alterarmos a estrutura dele, será alterado em todo site
+
+Para incluir um partial a uma pagina html, fazemos o seguinte:
+
+<%- include(endereco do arquivo) %>

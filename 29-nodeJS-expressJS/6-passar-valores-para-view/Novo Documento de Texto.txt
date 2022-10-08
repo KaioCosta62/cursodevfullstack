@@ -1,0 +1,33 @@
+Para colocar títulos dinamicos na página, podemos enviar valores para a view. No método render, ele aceita um segundo parâmetro que é um objeto, e nesse objeto passamos o valor que queremos enviar
+
+app.get('/participantes', (req, res) => {
+  res.render('participantes', {
+    title: 'Participantes'
+  })
+})
+
+app.get('/curiosidades', (req, res) => {
+  res.render('curiosidades', {
+    title: 'Curiosidades'
+  })
+})
+
+app.get('/favorito', (req, res) => {
+  res.render('favoritos', {
+    title: 'Favoritos'
+  })
+})
+
+app.get('/contato', (req,res) => {
+  res.render('contato', {
+    title: 'Contato'
+  })
+})
+
+Logo quando, a request for /contato, o título da página será contato.
+
+Agora basta ir na nossa partial head e colocar esse valor dinâmico, lá. Logo quando a request for /algumaCoisa o ejs é inteligente o suficiente para atribuir o valor de title correto
+
+<title><%= title %></title>
+
+Estou imprimindo um valor de title na tag title, note que usamos um = quando queremos atribuir um valor, ao contrário do include que usamos um -

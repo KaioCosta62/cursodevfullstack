@@ -1,0 +1,27 @@
+Dentro de app temos vários métodos, um deles é o get, que cria nossos endpoints(rotas)
+
+O método get recebe 2 parâmetros: O primeiro é a rota e o segundo é um callback que recebe o request(requisição) e o response( resposta a essa requisição)
+
+app.get('/', (req, res) => {
+ res.send('Hello World')
+})
+
+Quando alguem chamar(req) a rota /, eu quero enviar uma resposta para o servidor, nesse caso, Hello World
+
+Caso o usuário tente inserir uma rota que não existe, devemos envia-lo para uma página de erro, o famoso 404 not found
+
+app.use((req, res) => {
+  res.send('Página não encontrada')
+})
+
+Chamamos isso de middleware, que é algo que executa entre uma requisição, logo quando o client faz uma requisição para o servidor, o middleware é executado antes de qualquer rota
+
+app.use((req, res) => {
+  fs.readFile('./error.html', (error, content) => {
+    res.end(content)
+  })
+})
+
+Nesse exemplo, se o client fizer uma requisição em uma rota que não existe, eu criei um arquivo html, que será lido, esse arquivo html tem um h1 com a mensagem: 404 Not Found, para que isso funcione eu importer o módulo fs e utilizei o método readFIle para ler o arquivo
+
+No final, a resposta que eu vou mandar para essa requisição é o conteúdo desse arquivo, que é declarado no parâmetro content do método readFIle

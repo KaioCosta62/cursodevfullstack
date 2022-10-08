@@ -1,0 +1,15 @@
+Templete Engine facilita a organização dos nossos códigos html, permite que façamos loopings, condicionais, receber dados, etc
+
+O templete engine mais famoso é o EJS
+
+Para instalar o ejs basta rodar npm install ejs
+
+Após instalar, devemos configurar nosso server para utilizar o ejs
+
+app.set('view engine', 'ejs')
+
+Após isso devemos renomear nossos arquivos .html para .ejs
+
+E, quando estamos usando ejs, não precisamos declarar nossos arquivos públicos, estáticos, etc. O ejs já faz isso automaticamente
+
+Nas rotas, não precisamos especificar o caminho por ex: views/index, podemos deixar somente index, que o ejs já vai saber do que se trata

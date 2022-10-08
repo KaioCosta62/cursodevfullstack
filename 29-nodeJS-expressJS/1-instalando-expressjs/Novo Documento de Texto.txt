@@ -1,0 +1,25 @@
+O expressJS é o framework mais famoso para construir serviços, apis, etc, com nodeJS
+
+Para instalar o express, basta digitar no terminal: npm install express
+
+Logo apos instalar, temos que importar ele na nossa aplicação, fazemos isso usando o require()
+
+const express = require('express') 
+
+Quando importamos o express, ele se torna uma função e essa função nos retorna uma aplicação em express
+
+const app = express()
+
+Estou declarando a função que o express me retorna na importação na constante app
+
+Agora o app se torna um grande objeto com vários métodos
+
+Para criar o servidor fica muito simples.
+
+Basta utilizar o método listen() que recebe um callback
+
+const port = process.env.PORT || 8080
+
+Essa constante é uma boa prática na hora de criar um servidor. Quando subimos nossa aplicação, o serviço de hospedagem que vai determinar em qual porta que nosso sistema irá rodar, então process.env.PORT garante isso, quando estivermos rodando apenas localmente, a porta será 8080
+
+app.listen(port, () => console.log(`Server is listening on port ${port}`))

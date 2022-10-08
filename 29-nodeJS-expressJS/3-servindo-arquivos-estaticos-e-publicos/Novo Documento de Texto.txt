@@ -1,0 +1,37 @@
+Vamos programar nosso servidor para servir arquivos estáticos e públicos
+
+Arquivos estáticos são arquivos html
+
+MVC é um padrão de desenvolvimento
+
+M - Model (Tudo que vai lidar com banco de dados)
+
+V - View (Tudo que vai lidar com as coisas de visualização, tudo que o usuário vai ver na tela)
+
+C - Controller (Responsável por gerenciar os dados, consultar banco de dados (model), obter os dados, tratar os dados e retornar para a view)
+
+
+Eu preciso informar para o meu backend, onde estão esses arquivos estáticos que vão ser carregados, para isso podemos utilizar o método express.static() que recebe como parâmetro o endereço desses arquivos, no caso a pasta views
+
+O método static() necessita que seja passado o endereço completo até a pasta views, podemos conseguir esse endereço com a propriedade __dirname (diretorio e nome do diretorio)
+
+A biblioteca path serve para manipular caminho de pastas
+
+const staticFolder = path.join(__dirname, 'views')
+
+A constante staticFolder vai receber a concatenação do meu diretorio com o nome da pasta onde estão os arquivos estáticos, logo, views, o join vai concatenar o diretorio com o nome da pasta
+
+app.use(expressStatic)
+
+Agora estou passando um middleware para a minha constante expressStatic, que recebe meus arquivos estáticos
+
+app.get('/', (req,res) => {
+  res.render('views/index.html')
+})
+
+Agora eu estou configurando para quando a rota / for requerida, eu renderize o meu arquivo index.html
+
+
+Arquivos públicos são arquivos de imagens, css e javascript
+
+Se a gente linkar o css/js no html direto não vai funcionar. Temos primeiro que informar para o nosso servidor quem que é a pasta pública, igual fizemos com os arquivos estáticos
