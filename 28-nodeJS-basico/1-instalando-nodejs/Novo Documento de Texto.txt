@@ -1,0 +1,8 @@
+Para instalar o nodeJs vamos até o site nodejs.org
+
+É recomendável baixar a versão LTS, pois é a versão mais estável atualmente
+
+O nodejs usamos através da linha de comando
+
+
+npm significa node package manager, é basicamente o gerenciador de pacotes do node

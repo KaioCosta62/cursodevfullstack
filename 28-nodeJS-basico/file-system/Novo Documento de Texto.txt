@@ -1,0 +1,25 @@
+O file system é um modulo pré existente no node js
+
+Com o file system permite manipular arquivos.
+
+Para importar basta dar um require('fs)
+
+Quando estamos importando um modulo do node, não precisamos especificar o diretório dele, assim quando estamos importando um módulo que instalamos via terminal
+
+Com o fs, podemos criar arquivos, abrir arquivos, deletar arquivos, deletar pastas, criar pastas, etc.
+
+fs.readFile('./clientes.json', function(error, content){
+  if(error){
+    console.log("Ops. ocorreu um erro na leitura do arquivo", error)
+  }else{
+    console.log(JSON.parse(content))
+  }
+})
+
+O método readFile, abre um arquivo. Ele recebe 2 parâmetros: O endereço do arquivo que queremos abrir e uma função de callback que será executada após abrir o arquivo.
+
+A função de callback recebe 2 parâmetros: error e content (conteúdo do arquivo aberto)
+
+Nesse exemplo, se ocorrer algum erro eu vou exibir um console com uma mensagem e logo em seguida o erro e caso não tenha erros, eu vou converter meu arquivo json para objeto e exibi-lo no console
+
+Cada módulo trás consigo um conjunto de métodos

@@ -1,0 +1,7 @@
+O nodejs atua do lado do servidor, logo os objetos window e document, que são do lado do cliente, não são acessíveis.
+
+Mas todo o javascript está acessível ao lado do servidor: arrays, loopings, objetos, estrutura de condições, variaveis, constantes, etc.
+
+Para executar um arquivo, basta digitar no prompt: node nomeDoArquivo.js
+
+No lado do servidor conseguimos criar arquivos, manipular arquivos, acessar banco de dados, criar servidores, criar apis, etc.

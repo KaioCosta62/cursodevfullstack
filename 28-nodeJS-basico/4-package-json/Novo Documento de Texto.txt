@@ -1,0 +1,37 @@
+O vscode possui um terminal onde podemos usar o gitbash nele
+
+Para iniciar uma aplicação nodeJS, digitamos no terminal: npm init
+
+Quando o comando npm init é finalizado, ele cria um arquivo chamado package.json, esse arquivo é o coração de uma aplicação nodeJS, onde informamos o nome, versão, descrição, o principal arquivo que temos que executar, scripts, autor, licença etc.
+
+É também onde vai aparecer todos os pacotes que instalamos no nosso projeto
+
+Para instalar um pacote digitamos: npm install nomeDoPacote (ex: npm install express)
+
+Note que quando instalei o pacote express, foi gerado uma nova chave no arquivo package.json
+
+"dependencies": {
+    "express": "^4.18.1"
+  }
+
+Dentro do dependencies vai ficar uma série de pacotes cruciais para o funcionamento da nossa aplicação
+
+Quando instalamos um pacote, uma pasta chamada node_modules também é criada, essa pasta contem dependencias ou do pacote que instalamos (no caso express) ou coisas que o nodeJS precisa
+
+Outro arquivo que é criado é o package-lock.json, onde contem detalhes de cada pacote, é um arquivo de controle do próprio npm
+
+
+npm install nodemon --save-dev - Esse --save-dev é um parâmetro que passamos para o npm, quando o pacote é instalado, uma nova chave é criada no arquivo package.json
+
+"devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+
+Qual a diferença entre dependencies e devDependencies ?
+
+A diferença é que: tudo que está dentro de dependencies é crucial para o funcionamento da minha aplicação e os pacotes dentro de devDependencies são pacotes normalmente que vão ser uteis no ambiente de desenvolvimento, mas nossa aplicação não depende deles para funcionar
+
+Nesse exemplo, o nodemon é para o desenvolvedor não ter que ficar reiniciando a aplicação toda hora, ele faz isso automaticamente pra gente
+
+
+npm uninstall nodemon - Irá remover o pacote nodemon (Não precisamos especificar --save-dev), irá remover do package.json e também do node modules e faz uma atualização no package-lock.json

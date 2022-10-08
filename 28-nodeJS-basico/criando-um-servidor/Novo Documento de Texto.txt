@@ -1,0 +1,6 @@
+Criamos um servidor através do pacote http, ele é nativo do nodeJs, e serve para fazer operações de http
+
+Usamos o método createServer, que recebe uma função de callback contendo o request e o response.
+Request é o que está vindo na requisição e response é a resposta que iremos dar a requisição
+
+server.listen(8080) - Recebe o número da porta que queremos que o servidor execute, geralmente colocamos a porta 8080, esse servidor vai ficar escutando a porta 8080 e sempre que tiver uma mudança, ele irá chamar a função de callback atribuida ao método createServer

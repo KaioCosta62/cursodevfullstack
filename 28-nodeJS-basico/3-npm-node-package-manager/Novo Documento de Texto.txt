@@ -1,0 +1,5 @@
+npm é um gerenciador de pacotes
+
+Quando estamos construindo uma aplicação em java script, podemos instalar alguns pacotes, bibliotecas que vão nos auxiliar na construção da aplicação
+
+npm é onde está hospedado todos os pacotes do node

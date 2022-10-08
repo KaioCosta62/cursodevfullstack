@@ -1,0 +1,32 @@
+Os modulos servem para importar bibliotecas que baixamos ou outros arquivos que criamos
+
+Suponhamos: Temos um arquivo js que faz apenas cálculos (soma, multiplicacao, divisao), podemos criar esse arquivo separado e importar no arquivo principal para exibir os resultados, então utilizamos os modulos
+
+const soma = require('./calculos.js')
+
+Esse exemplo, eu estou criando uma variável que vai receber o resultado de uma função de somar.
+
+O require é uma função que recebe como parâmetro, o endereço do arquivo que você deseja importar
+
+function soma(n1,n2){return n1 + n2}
+
+module.exports = soma
+
+Eu estou falando que esse arquivo é um modulo que vai exportar uma coisa, no caso, a função soma 
+
+O module exports vai receber o elemento que será exportada
+
+Nós só podemos ter 1 module.exports por arquivo, logo se tiver mais coisas a serem exportas, podemos criar um objeto
+
+module.exports = {
+  soma,
+  multiplicacao
+}
+
+Nesse caso eu estou exportando as funções soma e multiplicação
+
+Para chamar essas funções no arquivo principal, podemos já desestruturar o objeto atribuido ao module.exports
+
+const {soma, multiplicacao} = require('./calculos.js')
+
+Sempre que desejamos ter um arquivo dentro de outro arquivo, devemos usar o module.exports
