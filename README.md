@@ -111,6 +111,11 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Branch
 - Git Ignore
 
+# Aprendizados de banco de dados até o momento
+
+ - Conectar no backend
+ - CRUD
+ 
 # Aprendizados de NodeJs até o momento
 
 - NPM
@@ -126,3 +131,5 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Looping
 - Condicionais
 - Lidando com formulários
+- Lidar com banco de dados
+- Padrão de projeto MVC
