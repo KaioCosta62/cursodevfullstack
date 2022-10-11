@@ -1,0 +1,21 @@
+Para instalar o mongodb basta ir até o site mongodb.com
+
+MongoDB é um banco de dados open-source gratuito
+
+Podemos criar conexão com banco de dados local e também remoto
+
+O mongodb oferece um endereço para fazer a conexão
+
+O mongodb compass é uma interface que se conecta ao mongodb
+
+O mongodb mesmo é um programa shell, roda na linha de comando, é através dele que manipulamos dados, deletamos, atualizamos, etc
+
+Quando conectamos ao mongodb, ele ja vem com 3 banco de dados criados: admin, local e config
+
+Collection-name significa tabela do banco de dados
+
+O mongodb suporta arquivos JSON e CSV
+
+Cada dado tem um código id
+
+O ideal é que tenhamos 1bd por projetos, mas pode acontecer de um projeto ter 2db, dependendo de como foi contruida a arquitetura do projeto
