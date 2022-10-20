@@ -133,3 +133,5 @@ Curso ministrado pelo Thiago Medeiros, onde estou aprendendo HTML, Css, JavaScri
 - Lidando com formulários
 - Lidar com banco de dados
 - Padrão de projeto MVC
+- Express
+- ApiRestFul
